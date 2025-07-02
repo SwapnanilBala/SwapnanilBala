@@ -22,7 +22,7 @@ My main interests lie in **Data Administration** and **Database Design** — tha
 ---
 
 #### 📚 Resources for Fellow Data Nerds
-If you're diving into **Pandas** or **NumPy**, make sure to check out my notes in the **`Pandas Essentials` Repository** — it’s written with clarity and learning in mind.
+If you're diving into **Pandas** or **NumPy**, make sure to check out my notes in the **`Pandas_Essentials_and_Numpy_Basics` Repository** — it’s written with clarity and learning in mind.
 
 ---
 
