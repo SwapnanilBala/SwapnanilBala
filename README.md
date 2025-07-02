@@ -11,7 +11,7 @@ My main interests lie in **Data Administration** and **Database Design** — tha
   A system designed to **filter genuine content** by eliminating false claims using data-driven techniques.
   
 - 🚕 **Automatidata Cab Fare Prediction**  
-  Predicting cab fares with ML, helping users get fair rates and better planning.
+  Predicting cab fares with ML, helping users get fair rates and better planning and getting a solid over-all idea for the fairs during differenet days and times of the day.
 
 - 🍋 **Little Lemon Database**  
   A complete **DB design for a small-to-medium restaurant**, showcasing optimization and scalability.
@@ -27,12 +27,12 @@ If you're diving into **Pandas** or **NumPy**, make sure to check out my notes i
 ---
 
 #### 🎹 Hobbies & Other Interests
-Outside of tech, I find peace in **Bikes**, **Music**, and **Nature**.  
+Outside of tech, I find peace in **Bikes**, **Fitness**, **Music**, and **Nature**.  
 I also hold **ABRSM Grade 3 & 4 Piano Certificates** — a hobby I once passionately pursued.
 
 ---
 
-#### 📬 Let’s Connect
+#### 📬 Feel free to reach out
 - 🔗 [LinkedIn](https://www.linkedin.com/in/swapnanil-bala-854b722a7/)
 - 📸 [Instagram](https://www.instagram.com/frost.plays.lifts/)
 
