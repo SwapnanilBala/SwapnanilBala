@@ -1,4 +1,4 @@
-### 👋 Hi, I’m @SwapnanilBala
+### 👋 Hi, I’m @Swapnanil
 
 #### 👨‍💻 Passionate About Data
 I'm currently pursuing my **Master's in Data Science** at [Khoury College of Computer Sciences, Northeastern University](https://www.khoury.northeastern.edu/).  
