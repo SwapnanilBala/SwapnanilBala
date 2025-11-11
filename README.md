@@ -11,7 +11,7 @@ My main interests lie in **Data Administration** and **Database Design** — tha
   A system designed to **filter genuine content** by eliminating false claims using data-driven techniques.
   
 - 🚕 **Automatidata Cab Fare Prediction**  
-  Predicting cab fares with ML, helping users get fair rates and better planning and getting a solid over-all idea for the fairs during differenet days and times of the day.
+  Predicting how likely is a passenger to tip the driver generously.
 
 - 🍋 **Little Lemon Database**  
   A complete **DB design for a small-to-medium restaurant**, showcasing optimization and scalability.
