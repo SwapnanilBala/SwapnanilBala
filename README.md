@@ -27,7 +27,7 @@ If you're diving into **Pandas** or **NumPy**, make sure to check out my notes i
 ---
 
 #### 🎹 Hobbies & Other Interests
-Outside of tech, I find peace in **Bikes**, **Fitness**, **Music**, and **Nature**.  
+Outside of tech, I find peace in **Motorcycles**, **Fitness**, **Music**, and **Nature**.  
 I also hold **ABRSM Grade 3 & 4 Piano Certificates** — a hobby I once passionately pursued.
 
 ---
