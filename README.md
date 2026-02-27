@@ -1,47 +1,50 @@
-### 👋 Hi, I’m @Swapnanil
+### 👋 Hi, I’m Swapnanil
 
-#### 👨‍💻 Passionate About Data
-I'm currently pursuing my **Master's in Data Science** at [Khoury College of Computer Sciences, Northeastern University](https://www.khoury.northeastern.edu/).  
-My main interests lie in **Data Administration** and **Database Design** — that's where I feel most at home.
+#### 👨‍💻 Data Science Grad Student | Systems + Analytics
+I’m currently pursuing my **Master’s in Data Science** at **Khoury College of Computer Sciences, Northeastern University**.  
+I enjoy building projects that sit at the intersection of **data engineering, analytics, and applied machine learning**—especially where clean data design and strong evaluation matter.
 
 ---
 
-#### 🛠️ Projects Worth Checking Out
-- 🧠 **TikTok Claims vs Opinions**  
-  A system designed to **filter genuine content** by eliminating false claims using data-driven techniques.
-  
-- 🚕 **Automatidata Cab Fare Prediction**  
-  Predicting how likely is a passenger to tip the driver generously.
+#### 🧠 Featured Projects
+- 🎮 **GridWorld Search Visualizer (Pygame + Python)**  
+  A modular pathfinding toolkit that runs and *visually replays* classic search algorithms (**BFS, DFS, DLS, UCS/Dijkstra, A\*, Bidirectional Search**) on custom maps. Includes live trace playback, path overlay, and metrics like expanded nodes + max frontier size.
 
-- 🍋 **Little Lemon Database**  
-  A complete **DB design for a small-to-medium restaurant**, showcasing optimization and scalability.
+- 📊 **BRFSS Interactive Dashboard (R / Shiny)**  
+  An interactive dashboard built on **BRFSS Chronic Health Indicators** (with demographic breakouts + prevalence trends). Designed for clear exploration, filtering, and storytelling—CDC-style.
 
-- 💊 **Prescription App for My Dad**  
-  A personal project that generates prescriptions based on patient inputs — streamlined and user-friendly.
+- 🧠 **TikTok Copyright Analyzer (NLP)**  
+  A text classification pipeline to distinguish content types and flag potential copyright risk signals using NLP features and supervised learning.
+
+- 🚕 **NYC TLC “Generous Tip” Predictor**  
+  A predictive model to estimate whether a trip is likely to receive a generous tip, with feature engineering and model comparison.
+
+- 🍋 **Little Lemon Database (SQL + DB Design)**  
+  End-to-end relational database design for a restaurant: schema design, normalization, queries, and stored-procedure oriented workflows.
+
+---
+
+#### 🧰 Skills & Tools I Use
+- **Languages:** Python, SQL, R  
+- **Data/ML:** Pandas, NumPy, scikit-learn, model evaluation, feature engineering  
+- **Visualization:** Plotly, Matplotlib, R Shiny  
+- **Systems:** Git/GitHub, reproducible workflows, project structuring
+
+---
+
+#### 🎹 Outside Tech
+When I’m not building, I’m usually into **motorcycles, fitness, music, and nature**.  
+I also hold **ABRSM Grade 3 & 4 Piano Certificates**.
 
 ---
 
 #### 📚 Resources for Fellow Data Nerds
-If you're diving into **Pandas** or **NumPy**, make sure to check out my notes in the **`Pandas_Essentials_and_Numpy_Basics` Repository** — it’s written with clarity and learning in mind.
+If you're diving into **Pandas** or **NumPy**, make sure to check out my notes in the **`Pandas_Essentials_and_Numpy_Basics` Repository** —
+
+#### 📬 Let’s connect
+- 🔗 LinkedIn: https://www.linkedin.com/in/swapnanil-bala-854b722a7/
+- 📸 Instagram: https://www.instagram.com/frost.plays.lifts/
 
 ---
 
-#### 🎹 Hobbies & Other Interests
-Outside of tech, I find peace in **Motorcycles**, **Fitness**, **Music**, and **Nature**.  
-I also hold **ABRSM Grade 3 & 4 Piano Certificates** — a hobby I once passionately pursued.
-
----
-
-#### 📬 Feel free to reach out
-- 🔗 [LinkedIn](https://www.linkedin.com/in/swapnanil-bala-854b722a7/)
-- 📸 [Instagram](https://www.instagram.com/frost.plays.lifts/)
-
----
-
-> *Thanks for stopping by — wishing you a great day ahead!*
-
-
-<!---
-SwapnanilBala/SwapnanilBala is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+> Thanks for visiting — feel free to explore my repositories!
