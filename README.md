@@ -34,7 +34,7 @@ Outside of code: 🏍 motorcycles, 💪 lifting, 🎹 piano, and 🌌 astrophysi
 ## 🚀 Live & Deployed Projects
 
 ### 🌌 Astro App
-[![Astro App](./assets/lagna_atelier.jpeg)](https://large-astro-web-app.vercel.app/)
+[![Astro App]([./assets/lagna_atelier.jpeg](https://github.com/SwapnanilBala/SwapnanilBala/blob/main/appointment.jpeg))](https://large-astro-web-app.vercel.app/)
 
 Cross-platform astrology platform with chart generation, palm reading, and AI-powered interpretations.
 
