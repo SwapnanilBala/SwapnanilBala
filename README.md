@@ -12,15 +12,16 @@
   <a href="https://www.instagram.com/frost.plays.lifts/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
+  <img src="https://img.shields.io/badge/Vibe%20Coder-⚡%20AI--Assisted%20Dev-f59e0b?style=for-the-badge"/>
 </p>
 
 ---
 
 ## 🧭 About Me
 
-I'm a data science grad student who actually ships things. My work lives at the intersection of **data engineering, applied ML, and product development** — from training classifiers on real datasets to building and deploying full-stack web and mobile apps that real users have tried and given feedback on.
+I'm a data science grad student who actually ships things. My work lives at the intersection of **data engineering, applied ML, and product development** — from training classifiers on real datasets to deploying full-stack web and mobile apps that real users have tried and given feedback on.
 
-I don't just prototype. I design backends, wire up databases, build frontends, and push things live. I'm equally comfortable in a Jupyter notebook and a Next.js codebase.
+I build fast. I lean heavily into **AI-assisted (vibe) development** — using Claude and other tools to accelerate the full stack: backends, databases, frontends, and native mobile. I ship to iOS and Android without compromising on code quality. I'm equally at home in a Jupyter notebook and a React Native codebase.
 
 Outside of code: **motorcycle rides**, **gym sessions**, **piano** *(ABRSM Grade 3 & 4)*, and thinking too hard about astrophysics.
 
@@ -28,10 +29,17 @@ Outside of code: **motorcycle rides**, **gym sessions**, **piano** *(ABRSM Grade
 
 ## 🚀 Live & Deployed Projects
 
+### 🌌 Astro App — iOS & Android *(Live)*
+**`React Native · Expo · TypeScript · FastAPI · Supabase · Claude Vision API`**
+
+A cross-platform mobile astrology app shipped to iOS and Android with positive early user feedback. Features ephemeris-based chart generation, palm reading via the Claude Vision API (webcam + file upload), and a RAG-powered interpretation engine backed by Supabase pgvector. Built entirely with vibe-first, AI-assisted development.
+
+---
+
 ### 🤖 AI Training Platform *(Live)*
 **`Next.js · TypeScript · FastAPI · Supabase · Tailwind CSS · Vercel`**
 
-A full-stack web application and companion mobile app for AI-assisted training workflows. Built with a Python/FastAPI backend, Supabase for auth and data, and a Next.js frontend deployed on Vercel. Currently live and in active use.
+A full-stack web application and companion mobile app for AI-assisted training workflows. Python/FastAPI backend, Supabase for auth and data, Next.js frontend deployed on Vercel. Currently live and in active use.
 
 ---
 
@@ -42,19 +50,12 @@ A production-grade patient-facing booking platform with appointment scheduling, 
 
 ---
 
-### 🌌 Astro App — iOS & Android *(Live)*
-**`React Native · Expo · TypeScript · FastAPI · Supabase`**
-
-A cross-platform mobile astronomy and astrology app, tested with real users and shipped to iOS and Android. Positive early user feedback. Features ephemeris-based calculations, chart generation, and a mobile-first UX built in React Native with Expo.
-
----
-
 ## 📐 Academic & Portfolio Projects
 
 ### 🎮 GridWorld Search Visualizer
 **`Python · Pygame`**
 
-Live visual replay of classic pathfinding algorithms on custom maps — **BFS, DFS, DLS, UCS/Dijkstra, A\*, Bidirectional Search**. Per-run metrics: expanded nodes, max frontier size, path length. Built with extensibility and clarity in mind.
+Live visual replay of classic pathfinding algorithms on custom maps — **BFS, DFS, DLS, UCS/Dijkstra, A\*, Bidirectional Search**. Per-run metrics: expanded nodes, max frontier size, path length. Built for CS 5100 (Foundations of AI) at Northeastern.
 
 ---
 
@@ -68,14 +69,14 @@ CDC-style interactive dashboard on Chronic Health Indicators from BRFSS data. De
 ### 🧠 TikTok Copyright Analyzer
 **`Python · NLP · Supervised Learning`**
 
-End-to-end classification pipeline to flag copyright risk signals from content text. NLP feature extraction, multiple classifier comparisons (Logistic Regression, Random Forest, SVM, Gradient Boosting), thorough evaluation. Built as a full ML pipeline, not just a notebook.
+End-to-end classification pipeline to flag copyright risk signals from content text. NLP feature extraction, multiple classifier comparisons (Logistic Regression, Random Forest, SVM, Gradient Boosting), thorough evaluation.
 
 ---
 
 ### 🚕 NYC TLC "Generous Tip" Predictor
 **`Python · scikit-learn · Feature Engineering`**
 
-Predictive classifier on NYC TLC trip data to estimate generous-tip likelihood. Rigorous feature engineering, cross-validation, model comparison (XGBoost, Random Forest, Logistic Regression), and end-to-end evaluation.
+Predictive classifier on NYC TLC trip data to estimate generous-tip likelihood. Rigorous feature engineering, cross-validation, model comparison (XGBoost, Random Forest, Logistic Regression).
 
 → [`github.com/SwapnanilBala/Automatidata`](https://github.com/SwapnanilBala/Automatidata)
 
@@ -84,35 +85,21 @@ Predictive classifier on NYC TLC trip data to estimate generous-tip likelihood. 
 ### 🍋 Little Lemon Restaurant Database
 **`SQL · Relational DB Design`**
 
-Full relational schema for a restaurant system — normalization, complex queries, stored procedures, and referential integrity. A clean, operational data model built for correctness, not just functionality.
-
----
-
-### 🏋️ Fitness Tracker App
-**`Python`**
-
-Personal workout logging app tracking session history and progress over time. Data-driven approach to personal health — because if you're not measuring it, you're not improving it.
+Full relational schema for a restaurant system — normalization, complex queries, stored procedures, and referential integrity.
 
 ---
 
 ### 🧹 Room Cleanliness Detector
 **`Python · Computer Vision`**
 
-ML classifier that takes image input and predicts room cleanliness state. Applied CV pipeline: image preprocessing, feature extraction, model training and evaluation.
-
----
-
-### 🙏 Salvation with The Lord
-**`Python`**
-
-A devotional application reflecting creative range beyond strictly technical domains. Built with the same care I bring to everything else.
+ML classifier that takes image input and predicts room cleanliness state. Full CV pipeline: preprocessing, feature extraction, model training and evaluation.
 
 ---
 
 ### 🔥 PyTorch Basics & Experiments
 **`Python · PyTorch`**
 
-Personal deep learning lab covering tensors, autograd, model building, and training loops from scratch. Foundation-level work that feeds into applied ML projects.
+Personal deep learning lab covering tensors, autograd, model building, and training loops from scratch.
 
 ---
 
@@ -125,9 +112,10 @@ Personal deep learning lab covering tensors, autograd, model building, and train
 | **Backend** | FastAPI, Node.js, REST APIs |
 | **Databases** | Supabase (Postgres + Auth), Neon (serverless Postgres), PostgreSQL |
 | **ML & Data** | scikit-learn, PyTorch, XGBoost, Gradient Boosting, SVM, Random Forest, Logistic Regression, NLP, CV, Pandas, NumPy |
-| **Deployment** | Vercel, GitHub Actions |
 | **Mobile** | React Native, Expo, iOS & Android |
-| **Tools** | Git/GitHub, VS Code, Claude Code, Jupyter |
+| **Deployment** | Vercel, GitHub Actions |
+| **AI / Vibe Dev** | Claude Code, Claude Vision API, AI-assisted full-stack & mobile development |
+| **Tools** | Git/GitHub, VS Code, Jupyter |
 
 ---
 
