@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Swapnanil 👋</h1>
 
 <p align="center">
-  <b>Builder · Data Scientist · Full-Stack & Mobile Developer</b><br/>
+  <b>Builder · Data Scientist · Full-Stack Developer</b><br/>
   <i>M.S. Data Science — Khoury College of Computer Sciences, Northeastern University</i>
 </p>
 
