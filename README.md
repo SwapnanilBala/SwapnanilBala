@@ -18,14 +18,15 @@
 
 ## 🧭 About Me
 
-I'm a data science grad student who **actually ships real-world systems**.
+I'm a data science grad student who actually ships real-world systems.
 
 My work sits at the intersection of:
-- ⚡ Applied Machine Learning  
-- 🏗 Backend Systems  
-- 🌐 Full-Stack Product Development  
 
-I don’t just build models — I build **products people use**.
+- ⚡ Applied Machine Learning
+- 🏗 Backend Systems
+- 🌐 Full-Stack Product Development
+
+I don’t just build models — I build products people use.
 
 Outside of code: 🏍 motorcycles, 💪 lifting, 🎹 piano, and 🌌 astrophysics.
 
@@ -34,7 +35,7 @@ Outside of code: 🏍 motorcycles, 💪 lifting, 🎹 piano, and 🌌 astrophysi
 ## 🚀 Live & Deployed Projects
 
 ### 🌌 Astro App
-[![Astro App]([./assets/lagna_atelier.jpeg](https://github.com/SwapnanilBala/SwapnanilBala/blob/main/appointment.jpeg))](https://large-astro-web-app.vercel.app/)
+[![Astro App](./astro.jpeg)](https://large-astro-web-app.vercel.app/)
 
 Cross-platform astrology platform with chart generation, palm reading, and AI-powered interpretations.
 
@@ -44,7 +45,7 @@ Cross-platform astrology platform with chart generation, palm reading, and AI-po
 ---
 
 ### 💪 Robust Health App
-[![Robust Health App](./assets/robust.jpeg)](https://app.robusthealth.in/)
+[![Robust Health App](./robust.jpeg)](https://app.robusthealth.in/)
 
 Full-scale fitness system with workout tracking, meal planning, and dynamic training workflows.
 
@@ -54,7 +55,7 @@ Full-scale fitness system with workout tracking, meal planning, and dynamic trai
 ---
 
 ### 🏥 Appointment Booking Platform
-[![Appointment Booking](./assets/Appointment%20Booking.jpeg)](https://drbalaortho.com/)
+[![Appointment Booking](./appointment.jpeg)](https://drbalaortho.com/)
 
 Production-grade medical booking system with scheduling, prescriptions, and WhatsApp notifications.
 
@@ -64,7 +65,7 @@ Production-grade medical booking system with scheduling, prescriptions, and What
 ---
 
 ### 📄 Resume AI Platform
-[![Resume AI Platform](./assets/resume_Handler.jpeg)](https://resume-handler-kappa.vercel.app/)
+[![Resume AI Platform](./resume.jpeg)](https://resume-handler-kappa.vercel.app/)
 
 AI-powered resume analyzer, job scorer, optimizer, and cover letter generator with intelligent feedback.
 
