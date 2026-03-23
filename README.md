@@ -18,11 +18,17 @@
 
 ## 🧭 About Me
 
-I'm a data science grad student who actually ships things. My work lives at the intersection of **data engineering, applied ML, and product development** — from training classifiers on real datasets to deploying full-stack web and mobile apps that real users have tried and given feedback on.
+I'm a data science grad student who **actually ships production systems**.
 
-I don't just prototype. I design backends, wire up databases, build frontends, and push things live. I build fast across the entire stack — equally at home in a Jupyter notebook and a React Native codebase.
+My work sits at the intersection of **applied ML, backend systems, and full-stack product development** — from training models to deploying scalable apps used by real users.
 
-Outside of code: **motorcycle rides**, **gym sessions**, **piano** *(ABRSM Grade 3 & 4)*, and thinking too hard about astrophysics.
+I don’t just prototype — I:
+- design systems  
+- build APIs  
+- connect databases  
+- deploy real products  
+
+Outside of code: **motorcycles, lifting, piano, and deep dives into astrophysics.**
 
 ---
 
@@ -30,32 +36,36 @@ Outside of code: **motorcycle rides**, **gym sessions**, **piano** *(ABRSM Grade
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
       <h3>🌌 Astro App</h3>
-      <img src="https://img.shields.io/badge/status-live-brightgreen?style=flat-square"/>
-      <img src="https://img.shields.io/badge/platform-iOS%20%26%20Android-blue?style=flat-square"/>
+      <a href="https://large-astro-web-app.vercel.app/">🔗 Live App</a><br/><br/>
+      Cross-platform astrology platform with chart generation, palm reading, and AI-powered interpretations.
       <br/><br/>
-      Cross-platform mobile astrology app with ephemeris-based chart generation, palm reading via the Claude Vision API (webcam + file upload), and a RAG-powered interpretation engine. Positive early user feedback.
-      <br/><br/>
-      <code>React Native</code> <code>Expo</code> <code>TypeScript</code> <code>FastAPI</code> <code>Supabase</code> <code>Claude Vision API</code>
+      <code>React Native</code> <code>TypeScript</code> <code>FastAPI</code> <code>Supabase</code>
     </td>
-    <td width="33%" valign="top">
-      <h3>🤖 AI Training Platform</h3>
-      <img src="https://img.shields.io/badge/status-live-brightgreen?style=flat-square"/>
-      <img src="https://img.shields.io/badge/platform-Web%20%26%20Mobile-blue?style=flat-square"/>
+
+    <td width="25%" valign="top">
+      <h3>💪 Robust Health App</h3>
+      <a href="https://app.robusthealth.in/">🔗 Live App</a><br/><br/>
+      Full-scale fitness system with workout tracking, meal planning, and dynamic training workflows.
       <br/><br/>
-      Full-stack web application and companion mobile app for AI-assisted training workflows. Python/FastAPI backend, Supabase for auth and data, Next.js frontend deployed on Vercel. In active use.
-      <br/><br/>
-      <code>Next.js</code> <code>TypeScript</code> <code>FastAPI</code> <code>Supabase</code> <code>Tailwind CSS</code> <code>Vercel</code>
+      <code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Vercel</code>
     </td>
-    <td width="33%" valign="top">
-      <h3>🏥 Medical Booking Platform</h3>
-      <img src="https://img.shields.io/badge/status-live-brightgreen?style=flat-square"/>
-      <img src="https://img.shields.io/badge/platform-Web-blue?style=flat-square"/>
+
+    <td width="25%" valign="top">
+      <h3>🏥 Appointment Booking</h3>
+      <a href="https://drbalaortho.com/">🔗 Live App</a><br/><br/>
+      Production-grade medical booking system with scheduling, prescriptions, and WhatsApp notifications.
       <br/><br/>
-      Production-grade patient-facing booking platform with appointment scheduling, real-time availability, and a clean responsive UI. Backed by Neon serverless Postgres and Supabase auth.
+      <code>Next.js</code> <code>Supabase</code> <code>Neon</code> <code>Twilio</code>
+    </td>
+
+    <td width="25%" valign="top">
+      <h3>📄 Resume AI Platform</h3>
+      <a href="https://resume-handler-kappa.vercel.app/">🔗 Live App</a><br/><br/>
+      AI-powered resume analyzer, job scorer, and cover letter generator with intelligent feedback.
       <br/><br/>
-      <code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Neon</code> <code>Tailwind CSS</code> <code>Vercel</code>
+      <code>Next.js</code> <code>FastAPI</code> <code>LLMs</code> <code>Vercel</code>
     </td>
   </tr>
 </table>
@@ -68,43 +78,39 @@ Outside of code: **motorcycle rides**, **gym sessions**, **piano** *(ABRSM Grade
   <tr>
     <td width="33%" valign="top">
       <h3>🎮 GridWorld Search Visualizer</h3>
-      Live visual replay of BFS, DFS, UCS, A*, and Bidirectional Search on custom maps. Per-run metrics: expanded nodes, max frontier size, path length.
+      Visual comparison of BFS, DFS, UCS, A*, and Bidirectional Search with metrics.
       <br/><br/>
       <code>Python</code> <code>Pygame</code>
     </td>
+
     <td width="33%" valign="top">
       <h3>📊 BRFSS Health Dashboard</h3>
-      CDC-style interactive dashboard on chronic health indicators. Demographic breakouts, prevalence trends, filterable and presentation-ready.
+      Interactive dashboard for chronic health indicators with demographic insights.
       <br/><br/>
       <code>R</code> <code>Shiny</code>
     </td>
+
     <td width="33%" valign="top">
       <h3>🧠 TikTok Copyright Analyzer</h3>
-      End-to-end NLP classification pipeline for copyright risk signals. Logistic Regression, Random Forest, SVM, Gradient Boosting — full ML pipeline, not just a notebook.
+      NLP classification pipeline for copyright risk detection using multiple ML models.
       <br/><br/>
       <code>Python</code> <code>NLP</code> <code>scikit-learn</code>
     </td>
   </tr>
+
   <tr>
     <td width="33%" valign="top">
-      <h3>🚕 NYC TLC Tip Predictor</h3>
-      Classifier on NYC taxi trip data for generous-tip likelihood. Rigorous feature engineering, cross-validation, XGBoost + Random Forest + Logistic Regression.
-      <br/><br/>
-      <a href="https://github.com/SwapnanilBala/Automatidata">→ View repo</a>
-      <br/><br/>
-      <code>Python</code> <code>XGBoost</code> <code>scikit-learn</code>
-    </td>
-    <td width="33%" valign="top">
       <h3>🍋 Little Lemon DB</h3>
-      Full relational schema for a restaurant system — normalization, complex queries, stored procedures, and referential integrity.
+      Fully normalized relational database with stored procedures and optimized queries.
       <br/><br/>
-      <code>SQL</code> <code>Relational DB Design</code>
+      <code>SQL</code>
     </td>
+
     <td width="33%" valign="top">
       <h3>🧹 Room Cleanliness Detector</h3>
-      ML classifier on image input predicting room cleanliness. Full CV pipeline: preprocessing, feature extraction, model training and evaluation.
+      Computer vision model (~90% accuracy) for classifying room cleanliness.
       <br/><br/>
-      <code>Python</code> <code>Computer Vision</code>
+      <code>Python</code> <code>CV</code>
     </td>
   </tr>
 </table>
@@ -115,21 +121,24 @@ Outside of code: **motorcycle rides**, **gym sessions**, **piano** *(ABRSM Grade
 
 | Domain | Technologies |
 |---|---|
-| **Languages** | Python, TypeScript, JavaScript, SQL, R, Dart |
-| **Frontend** | Next.js, React Native (Expo), Tailwind CSS, HTML/CSS |
-| **Backend** | FastAPI, Node.js, REST APIs |
-| **Databases** | Supabase (Postgres + Auth), Neon (serverless Postgres), PostgreSQL |
-| **ML & Data** | scikit-learn, PyTorch, XGBoost, Gradient Boosting, SVM, Random Forest, NLP, CV, Pandas, NumPy |
-| **Mobile** | React Native, Expo, iOS & Android |
-| **Deployment** | Vercel, GitHub Actions |
-| **Tools** | Git/GitHub, VS Code, Claude Code, Jupyter |
+| **Languages** | Python, TypeScript, JavaScript, SQL, R |
+| **Frontend** | Next.js, React Native, Tailwind CSS |
+| **Backend** | FastAPI, Node.js |
+| **Databases** | Supabase, PostgreSQL, Neon |
+| **ML & Data** | scikit-learn, PyTorch, XGBoost, NLP, CV |
+| **Mobile** | React Native (Expo) |
+| **Deployment** | Vercel, Render |
+| **Tools** | Git, VS Code, Jupyter |
 
 ---
 
 ## 📚 Resources
 
-Getting started with Pandas or NumPy? Check out my **[`Pandas_Essentials_and_Numpy_Basics`](./Pandas_Essentials_and_Numpy_Basics)** repo — practical notes built from real usage, not copied docs.
+Check out my notes repo:  
+👉 **Pandas & NumPy Essentials** — practical, no-fluff learning from real usage.
 
 ---
 
-> *I build things that work, ship things that matter, and keep learning. Explore the repos — and feel free to reach out.*
+## ⚡ Philosophy
+
+> I don’t just write code — I build systems that people actually use.
