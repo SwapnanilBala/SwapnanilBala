@@ -118,7 +118,7 @@ Computer vision model (~90% accuracy) for classifying room cleanliness.
 | **Languages** | Python, TypeScript, JavaScript, SQL, R |
 | **Frontend** | Next.js, React Native, Tailwind CSS |
 | **Backend** | FastAPI, Node.js |
-| **Databases** | Supabase, PostgreSQL, Neon |
+| **Databases** | Supabase, PostgreSQL, Neon, SQlite, MySQL Work-Bench, Bee-Keeper Studios, MongoDB (Atlas), Pocket Base, Turso Sqlite |
 | **ML & Data** | scikit-learn, PyTorch, XGBoost, NLP, CV |
 | **Mobile** | React Native (Expo) |
 | **Deployment** | Vercel, Render |
