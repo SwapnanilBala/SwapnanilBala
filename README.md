@@ -86,7 +86,7 @@ Visual comparison of BFS, DFS, UCS, A*, and Bidirectional Search with performanc
 ### 📊 BRFSS Health Dashboard
 Interactive dashboard analyzing chronic health indicators with demographic breakdowns.
 
-**Tech:** `R` `Shiny`
+**Tech:** `Python` `Plotly`
 
 ---
 
