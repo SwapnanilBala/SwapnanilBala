@@ -128,7 +128,7 @@ Computer vision model (~90% accuracy) for classifying room cleanliness.
 
 ## 📚 Resources
 
-Check out my notes repository for practical learning built from real-world usage.
+Check out my notes repository for practical learning built from real-world usage. Specifically talking about this: https://github.com/SwapnanilBala/Pandas_Essentials_and_Numpy_Basics
 
 ---
 
