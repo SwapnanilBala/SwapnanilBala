@@ -28,7 +28,7 @@ My work sits at the intersection of:
 
 I don’t just build models — I build products people use.
 
-Outside of code: 🏍 motorcycles, 💪 lifting, 🎹 piano, and 🌌 astrophysics.
+Outside of code: 🏍 motorcycles, 💪 lifting.
 
 ---
 
