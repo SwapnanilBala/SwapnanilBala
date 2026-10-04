@@ -107,11 +107,11 @@ Computer vision classifier for room cleanliness, ~90% accuracy.
 | **Languages** | Python, TypeScript, JavaScript, SQL, R, Julia, C++ |
 | **Frontend** | Next.js, React Native, Tailwind CSS |
 | **Backend** | FastAPI, Node.js |
-| **Databases** | Supabase, PostgreSQL, Neon, SQLite, MySQL Workbench, BeeKeeper Studio, MongoDB Atlas, PocketBase, Turso |
-| **ML & Data** | scikit-learn, PyTorch, XGBoost, NLP, CV, Linear Regression, Logistic Regression, MANCOVA, ANACOVA, Statistical Analysis |
+| **Databases** | Supabase, PostgreSQL, pgvector, Neon, SQLite, MySQL Workbench, BeeKeeper Studio, MongoDB Atlas, PocketBase, Turso |
+| **ML & Data** | scikit-learn, PyTorch, XGBoost, NLP, CV, RAG Systems, Data Preprocessing, Data Visualization, Linear Regression, Logistic Regression, MANCOVA, ANACOVA, Statistical Analysis |
 | **Deployment** | Vercel, Render, Railway |
 | **AI & Dev Tools** | Claude Code, OpenAI Codex, Windsurf, Cursor, Blackbox AI, Ollama |
-| **Tools** | Git, GitHub, VS Code, Jupyter |
+| **Tools** | Git, GitHub, VS Code, Jupyter, Anti-Gravity |
 | **API** | OPENAI_API, claude_api, Ably_API, Resend_API |
 
 ---
