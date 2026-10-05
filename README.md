@@ -4,7 +4,7 @@
 
 <p align="center">
   Data science grad student at Northeastern who loves building things people actually use.<br>
-  4 live apps so far, plus NLP, vision and search projects.
+  <!--live-->4<!--/live--> live apps so far, plus NLP, vision and search projects.
 </p>
 
 <p align="center">
@@ -26,13 +26,13 @@
 </p>
 
 <p align="center">
-  <a href="#live-projects">Projects</a> ·
+  <a href="#featured-work">Featured work</a> ·
   <a href="#academic--portfolio-projects">Academic</a> ·
   <a href="#stack">Stack</a> ·
   <a href="#resources">Resources</a>
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## About Me
 
@@ -45,49 +45,54 @@ My work tends to sit somewhere across:
 
 When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://www.instagram.com/frost.plays.lifts/)).
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
-## Live Projects
+## Featured Work
 
+<sub>Click a card for the full gallery of every screen.</sub>
+
+<!-- featured:start -->
 <table>
 <tr>
 <td width="50%" valign="top">
-  <a href="projects/astro-app.md"><img src="assets/projects/astro-app/cover.webp" alt="Astro App — birth details input form" width="100%"></a>
-  <h3>Astro App</h3>
+  <a href="projects/lagna-atelier.md"><img src="assets/projects/lagna-atelier/hero.webp" alt="Lagna Atelier screenshots" width="100%"></a>
+  <h3>Lagna Atelier</h3>
   <p>Cross-platform astrology platform with chart generation, palm reading, and AI-powered interpretations.</p>
   <p><code>React Native</code> <code>TypeScript</code> <code>FastAPI</code> <code>Supabase</code></p>
-  <p><a href="https://large-astro-web-app.vercel.app/"><b>Live app ↗</b></a> · <a href="projects/astro-app.md">Gallery</a></p>
+  <p><a href="https://large-astro-web-app.vercel.app/"><b>Live app ↗</b></a> · <a href="projects/lagna-atelier.md">Gallery · 7 screens</a></p>
 </td>
 <td width="50%" valign="top">
-  <a href="projects/robust-health.md"><img src="assets/projects/robust-health/cover.webp" alt="Robust Health — weekly system feature overview" width="100%"></a>
-  <h3>Robust Health App</h3>
+  <a href="projects/robust-health.md"><img src="assets/projects/robust-health/hero.webp" alt="Robust Health screenshots" width="100%"></a>
+  <h3>Robust Health</h3>
   <p>Fitness app with workout tracking, meal planning, and training workflows.</p>
   <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Vercel</code></p>
-  <p><a href="https://app.robusthealth.in/"><b>Live app ↗</b></a> · <a href="projects/robust-health.md">Gallery</a></p>
+  <p><a href="https://app.robusthealth.in/"><b>Live app ↗</b></a> · <a href="projects/robust-health.md">Gallery · 8 screens</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <a href="projects/appointment-booking.md"><img src="assets/projects/appointment-booking/cover.webp" alt="Appointment booking — booking form and patient login" width="100%"></a>
+  <a href="projects/appointment-booking.md"><img src="assets/projects/appointment-booking/hero.webp" alt="Appointment Booking Platform screenshots" width="100%"></a>
   <h3>Appointment Booking Platform</h3>
   <p>Medical booking system with scheduling, prescriptions, and WhatsApp notifications.</p>
   <p><code>Next.js</code> <code>Supabase</code> <code>Neon</code> <code>Twilio</code></p>
-  <p><a href="https://drbalaortho.com/"><b>Live app ↗</b></a> · <a href="projects/appointment-booking.md">Gallery</a></p>
+  <p><a href="https://drbalaortho.com/"><b>Live app ↗</b></a> · <a href="projects/appointment-booking.md">Gallery · 3 screens</a></p>
 </td>
 <td width="50%" valign="top">
-  <a href="projects/resume-ai.md"><img src="assets/projects/resume-ai/cover.webp" alt="Resume AI — upload resume and job description to score" width="100%"></a>
-  <h3>Resume AI Platform</h3>
+  <a href="projects/alignr.md"><img src="assets/projects/alignr/hero.webp" alt="Alignr screenshots" width="100%"></a>
+  <h3>Alignr</h3>
   <p>Resume analyzer and optimizer — scores against job descriptions and generates cover letters.</p>
   <p><code>Next.js</code> <code>FastAPI</code> <code>LLMs</code> <code>Vercel</code></p>
-  <p><a href="https://resume-handler-kappa.vercel.app/"><b>Live app ↗</b></a> · <a href="projects/resume-ai.md">Gallery</a></p>
+  <p><a href="https://resume-handler-kappa.vercel.app/"><b>Live app ↗</b></a> · <a href="projects/alignr.md">Gallery · 3 screens</a></p>
 </td>
 </tr>
 </table>
+<!-- featured:end -->
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## Academic & Portfolio Projects
 
+<!-- academic:start -->
 | Project | What it does | Stack |
 |---|---|---|
 | **GridWorld Search Visualizer** | Visual comparison of BFS, DFS, UCS, A*, and Bidirectional Search with performance metrics. | `Python` `Pygame` |
@@ -95,8 +100,9 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 | **TikTok Copyright Analyzer** | NLP pipeline for detecting copyright risk signals using multiple ML models. | `Python` `NLP` `scikit-learn` |
 | **Little Lemon Database System** | Normalized relational database with stored procedures and complex queries. | `SQL` |
 | **Room Cleanliness Detector** | Computer vision classifier for room cleanliness, ~90% accuracy. | `Python` `Computer Vision` |
+<!-- academic:end -->
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## Stack
 
@@ -125,14 +131,14 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## Resources
 
 Notes I've put together from actual usage — nothing theoretical:
 [Pandas Essentials & NumPy Basics](https://github.com/SwapnanilBala/Pandas_Essentials_and_Numpy_Basics)
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## How I work
 

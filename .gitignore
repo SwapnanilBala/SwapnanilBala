@@ -1,5 +1,2 @@
-# Raw, un-optimized originals live here and are never committed.
-assets/_inbox/
-
 __pycache__/
 .DS_Store
