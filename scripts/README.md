@@ -62,6 +62,8 @@ Screenshots stay in numeric order. Phone-shaped shots (taller than 0.7:1) share 
 - Show the app doing something (results, charts, confirmation), not only an empty form.
 - Read the seed data in the shot. Typos in demo content get noticed.
 
-## If the action can't be added
+## If the action doesn't run or can't push
 
-Pushing a file into `.github/workflows/` needs a token with workflow permission. If that was refused, create `.github/workflows/build-showcase.yml` in the GitHub web editor with the contents from this repo's history, or skip it and run `python scripts/build.py` locally. Nothing else depends on it.
+- Open the **Actions** tab and enable workflows if GitHub asks.
+- Go to **Settings → Actions → General → Workflow permissions** and choose **Read and write permissions**. The workflow requests `contents: write` itself, but a repo or account policy can override that.
+- Or skip the action entirely and run `python scripts/build.py` locally. Nothing else depends on it.
