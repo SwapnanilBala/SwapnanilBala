@@ -8,6 +8,10 @@
 </p>
 
 <p align="center">
+  M.S. Data Science — Khoury College of Computer Sciences, Northeastern University
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/swapnanil-bala-854b722a7/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
