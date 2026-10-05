@@ -1,0 +1,156 @@
+# Single source of truth for the portfolio.
+#
+# Edit this file, then run `python scripts/build.py` (or let the GitHub Action do it).
+# It regenerates: the project cards + table in README.md, every page in projects/,
+# and the hero images in assets/projects/<slug>/.
+#
+# Adding a project  -> copy a [[project]] block, give it a unique slug + prefix.
+# Adding screenshots -> upload them to assets/ as <PREFIX>_<N>.png (e.g. LA_8.png).
+#                       Re-uploading an existing number replaces that screenshot.
+#
+# Per-project keys
+#   slug      folder + page name (assets/projects/<slug>/, projects/<slug>.md)
+#   prefix    letters in the screenshot filenames (case-insensitive: LA_1, La_1, la-1 all work)
+#   kind      "product"  -> featured card with a hero image   (live apps)
+#             "academic" -> row in the compact table            (coursework, research)
+#   title, tagline, summary, tech = [..], live = "url", repo = "url"   (live/repo optional)
+#   hero      screenshot numbers used for the hero collage (default: the first three)
+#   bg, accent  hero colours: two background stops + a glow colour
+#   captions  one line per screenshot, shown under it on the project page
+#   trim_bottom  pixels to cut off the bottom of a screenshot (e.g. a half-visible footer)
+#   redact    boxes [x0, y0, x1, y1] (pixels of the ORIGINAL upload) to paint over, e.g. an email
+
+# ------------------------------------------------------------------ products
+
+[[project]]
+slug = "lagna-atelier"
+prefix = "LA"
+kind = "product"
+title = "Lagna Atelier"
+tagline = "Vedic birth charts with AI-written interpretations"
+summary = "Cross-platform astrology platform with chart generation, palm reading, and AI-powered interpretations."
+tech = ["React Native", "TypeScript", "FastAPI", "Supabase"]
+live = "https://large-astro-web-app.vercel.app/"
+hero = [2, 4, 5]
+bg = ["#0a0f24", "#241a4a"]
+accent = "#e0b76b"
+
+[project.captions]
+1 = "Guided onboarding: name, birth date, time and place, with a live sky preview"
+2 = "Daily overview: planetary positions, top takeaways, natal chart wheel and weekly energy"
+3 = "Connected Insight Zone: life-area tabs and a house-by-house support breakdown"
+4 = "Vimshottari Dasha timing: current periods, calculation audit and a full timeline"
+5 = "Lifetime yogas: detected planetary combinations ranked by strength"
+6 = "Karma and vocation: a symbolic reading drawn from lagna, nodes, nakshatra and dasha timing"
+7 = "Calculation settings: choose the ayanamsa and house system behind the chart"
+
+[[project]]
+slug = "robust-health"
+prefix = "RH"
+kind = "product"
+title = "Robust Health"
+tagline = "Programming, tracking and nutrition in one app"
+summary = "Fitness app with workout tracking, meal planning, and training workflows."
+tech = ["Next.js", "TypeScript", "Supabase", "Vercel"]
+live = "https://app.robusthealth.in/"
+hero = [8, 1, 4]
+bg = ["#090b12", "#241046"]
+accent = "#8b5cf6"
+
+[project.captions]
+1 = "Guided workout on mobile: exercise-by-exercise flow with sets, reps and progress"
+2 = "Mobile dashboard: active programme, weekly stats and recent activity"
+3 = "Inbox and the More menu: plans, biometrics, history, analytics and calendar"
+4 = "Workout summary with per-exercise results"
+5 = "Web dashboard: greeting, programme overview and the day-by-day plan"
+6 = "Landing page: how a plan gets written and followed"
+7 = "Member portal: sign in or create an account with Google, Discord, GitHub or email"
+8 = "Landing hero: structured programming, refined every week"
+
+[project.redact]
+# RH_5 shows the signed-in email in the navbar; paint over the text.
+5 = [[1302, 20, 1534, 52]]
+
+[[project]]
+slug = "appointment-booking"
+prefix = "DA"
+kind = "product"
+title = "Appointment Booking Platform"
+tagline = "Booking, scheduling and prescriptions for a live orthopedic clinic"
+summary = "Medical booking system with scheduling, prescriptions, and WhatsApp notifications."
+tech = ["Next.js", "Supabase", "Neon", "Twilio"]
+live = "https://drbalaortho.com/"
+hero = [3, 1, 2]
+bg = ["#0b1a14", "#14382a"]
+accent = "#6fcf97"
+
+[project.captions]
+1 = "Patient booking home: choose a city and chamber, or log in as a returning patient"
+2 = "Doctor dashboard login: schedule, availability and prescription tools"
+3 = "Daily schedule and availability manager: toggle the days patients can book"
+
+[project.trim_bottom]
+# DA_1 ends on a half-visible footer card.
+1 = 160
+
+[[project]]
+slug = "alignr"
+prefix = "AN"
+kind = "product"
+title = "Alignr"
+tagline = "Score a resume against any job description"
+summary = "Resume analyzer and optimizer — scores against job descriptions and generates cover letters."
+tech = ["Next.js", "FastAPI", "LLMs", "Vercel"]
+live = "https://resume-handler-kappa.vercel.app/"
+hero = [1, 3, 2]
+bg = ["#141a17", "#2c211b"]
+accent = "#e07a5f"
+
+[project.captions]
+1 = "Overview: start a comparison with a resume and a job description"
+2 = "Workspace: recent comparisons and a ten-minute improvement plan"
+3 = "Match intelligence: resume score, keyword opportunities, skills coverage and top edits"
+
+# ------------------------------------------------------------------ academic
+# No screenshots yet. Upload GW_1.png, BR_1.png, ... to assets/ and each project gets a
+# gallery page automatically. Add  repo = "https://github.com/..."  to link the code.
+
+[[project]]
+slug = "gridworld"
+prefix = "GW"
+kind = "academic"
+title = "GridWorld Search Visualizer"
+summary = "Visual comparison of BFS, DFS, UCS, A*, and Bidirectional Search with performance metrics."
+tech = ["Python", "Pygame"]
+
+[[project]]
+slug = "brfss-dashboard"
+prefix = "BR"
+kind = "academic"
+title = "BRFSS Health Dashboard"
+summary = "Interactive dashboard exploring chronic health indicators across demographic groups."
+tech = ["Python", "Plotly"]
+
+[[project]]
+slug = "tiktok-copyright-analyzer"
+prefix = "TK"
+kind = "academic"
+title = "TikTok Copyright Analyzer"
+summary = "NLP pipeline for detecting copyright risk signals using multiple ML models."
+tech = ["Python", "NLP", "scikit-learn"]
+
+[[project]]
+slug = "little-lemon-database"
+prefix = "LL"
+kind = "academic"
+title = "Little Lemon Database System"
+summary = "Normalized relational database with stored procedures and complex queries."
+tech = ["SQL"]
+
+[[project]]
+slug = "room-cleanliness-detector"
+prefix = "RC"
+kind = "academic"
+title = "Room Cleanliness Detector"
+summary = "Computer vision classifier for room cleanliness, ~90% accuracy."
+tech = ["Python", "Computer Vision"]
