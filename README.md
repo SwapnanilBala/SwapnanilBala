@@ -3,6 +3,11 @@
 </p>
 
 <p align="center">
+  Data science grad student at Northeastern who loves building things people actually use.<br>
+  4 live apps so far, plus NLP, vision and search projects.
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/swapnanil-bala-854b722a7/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
