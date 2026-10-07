@@ -14,7 +14,7 @@ scripts/build.py              the build
 
 ## Add screenshots
 
-1. Name each file `PREFIX_N`. The prefix belongs to a project (`LA` Lagna Atelier, `RH` Robust Health, `DA` Appointment Booking, `AN` Alignr, `GW` GridWorld, `BR` BRFSS, `TK` TikTok, `LL` Little Lemon, `RC` Room Cleanliness), and `N` is the order it appears in. Case and separators don't matter: `LA_1.png`, `la-1.PNG` and `La 1.jpeg` are all the same slot.
+1. Name each file `PREFIX_N`. The prefix belongs to a project (`LA` Lagna Atelier, `RH` Robust Health, `DA` Appointment Booking, `AN` Alignr, `FN` Fake News, `GW` GridWorld, `TK` TikTok, `BR` BRFSS, `CF` CIFAR-10, `LL` Little Lemon), and `N` is the order it appears in. Case and separators don't matter: `LA_1.png`, `la-1.PNG` and `La 1.jpeg` are all the same slot.
 2. Upload them into `assets/` (GitHub: **Add file → Upload files**).
 3. Either wait for the **Build showcase** action (about a minute), or run it yourself:
    ```bash
@@ -34,7 +34,7 @@ Copy a `[[project]]` block in `data/projects.toml`, give it a unique `slug` and 
 - `product` gets a card with a hero collage in **Featured Work**
 - `academic` gets a row in the compact table (and a gallery page as soon as it has screenshots)
 
-Then upload screenshots with its prefix. The comments at the top of the manifest list every key.
+Then upload screenshots with its prefix. The comments at the top of the manifest list every key, including `highlights`: a few short facts (`["561 tests", "23 divisional charts"]`) shown as one line under a card's summary and on its gallery page.
 
 ## Fix a screenshot without retaking it
 

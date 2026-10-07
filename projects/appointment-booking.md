@@ -8,9 +8,11 @@
 
 **Booking, scheduling and prescriptions for a live orthopedic clinic**
 
-Medical booking system with scheduling, prescriptions, and WhatsApp notifications.
+Booking system for a live orthopedic clinic: patient booking, the doctor's daily schedule, an admin panel and WhatsApp notifications.
 
-**Stack:** `Next.js` `Supabase` `Neon` `Twilio`  
+**3 portals: patient, doctor, admin** · **7-day availability view**
+
+**Stack:** `Node.js` `Express` `PostgreSQL` `Twilio`  
 **Live:** [drbalaortho.com](https://drbalaortho.com/)
 
 ## Screenshots (3)

@@ -8,9 +8,11 @@
 
 **Programming, tracking and nutrition in one app**
 
-Fitness app with workout tracking, meal planning, and training workflows.
+Fitness PWA that turns a member's profile into weekly training, nutrition and sleep plans, with separate member and trainer portals.
 
-**Stack:** `Next.js` `TypeScript` `Supabase` `Vercel`  
+**15 training programmes** · **160+ exercises** · **−50% web load time**
+
+**Stack:** `Next.js` `TypeScript` `Supabase` `Claude API` `Vercel`  
 **Live:** [app.robusthealth.in](https://app.robusthealth.in/)
 
 ## Screenshots (8)
