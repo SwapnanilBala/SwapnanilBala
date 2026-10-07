@@ -10,7 +10,7 @@
 
 Vedic astrology engine: birth charts across six ayanamshas and six house systems, dasha timelines, yoga detection and AI palm reading.
 
-**561 tests** · **23 divisional charts** · **51 yogas detected**
+**1,863 tests** · **23 divisional charts** · **51 yogas detected**
 
 **Stack:** `Next.js` `TypeScript` `astronomy-engine` `Neon + Drizzle` `Claude vision`  
 **Live:** [lagnaatelier.site](https://lagnaatelier.site/)  
