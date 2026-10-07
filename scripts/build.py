@@ -364,6 +364,8 @@ def page_markdown(p, shots, prev_p, next_p):
     if p["tagline"]:
         out += [f"**{p['tagline']}**", ""]
     out += [p["summary"], ""]
+    if p.get("highlights"):
+        out += [" · ".join(f"**{h}**" for h in p["highlights"]), ""]
     meta = [m for m in (f"**Stack:** {tech_line(p['tech'])}" if p["tech"] else "", link_line(p)) if m]
     if meta:
         out += ["  \n".join(meta), ""]
@@ -417,8 +419,11 @@ def card(p, shots, has_page, colspan):
         links.append(f'<a href="{page}">Gallery · {len(shots)} screens</a>')
     tech = " ".join(f"<code>{esc(t)}</code>" for t in p["tech"])
     span = ' colspan="2"' if colspan else ' width="50%"'
+    highlights = ""
+    if p.get("highlights"):
+        highlights = f'  <p><sub>{" · ".join(esc(h) for h in p["highlights"])}</sub></p>\n'
     return (f'<td{span} valign="top">\n{img}  <h3>{esc(p["title"])}</h3>\n  <p>{esc(p["summary"])}</p>\n'
-            f'  <p>{tech}</p>\n  <p>{" · ".join(links)}</p>\n</td>')
+            f'{highlights}  <p>{tech}</p>\n  <p>{" · ".join(links)}</p>\n</td>')
 
 
 def featured_block(products, shots_by_slug, pages):

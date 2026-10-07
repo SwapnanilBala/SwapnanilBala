@@ -8,9 +8,11 @@
 
 **Score a resume against any job description**
 
-Resume analyzer and optimizer — scores against job descriptions and generates cover letters.
+Resume analyzer: scores a resume against a job description across eight weighted dimensions, compares drafts and ranks up to ten job posts.
 
-**Stack:** `Next.js` `FastAPI` `LLMs` `Vercel`  
+**8 scoring dimensions** · **23 role templates** · **Parses PDF, DOCX, TXT and TEX**
+
+**Stack:** `Next.js` `TypeScript` `Python` `Neon`  
 **Live:** [resume-handler-kappa.vercel.app](https://resume-handler-kappa.vercel.app/)
 
 ## Screenshots (3)

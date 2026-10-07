@@ -8,10 +8,13 @@
 
 **Vedic birth charts with AI-written interpretations**
 
-Cross-platform astrology platform with chart generation, palm reading, and AI-powered interpretations.
+Vedic astrology engine: birth charts across six ayanamshas and six house systems, dasha timelines, yoga detection and AI palm reading.
 
-**Stack:** `React Native` `TypeScript` `FastAPI` `Supabase`  
-**Live:** [large-astro-web-app.vercel.app](https://large-astro-web-app.vercel.app/)
+**1,863 tests** · **23 divisional charts** · **51 yogas detected**
+
+**Stack:** `Next.js` `TypeScript` `astronomy-engine` `Neon + Drizzle` `Claude vision`  
+**Live:** [lagnaatelier.site](https://lagnaatelier.site/)  
+**Code:** [github.com/SwapnanilBala/Large_Astro_Web_App](https://github.com/SwapnanilBala/Large_Astro_Web_App)
 
 ## Screenshots (7)
 
