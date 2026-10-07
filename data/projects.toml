@@ -162,7 +162,7 @@ slug = "cifar10-cnn"
 prefix = "CF"
 kind = "academic"
 title = "CIFAR-10 Image Classifier"
-summary = "Small convolutional network trained from scratch on CIFAR-10's 50,000 images, evaluated every epoch on the 10,000-image test set."
+summary = "Small convolutional network trained from scratch on CIFAR-10: 72.3% test accuracy after 5 epochs, about 4 minutes on a CPU."
 tech = ["Python", "PyTorch"]
 repo = "https://github.com/SwapnanilBala/Pytorch_Beginner_Image_Classification"
 
