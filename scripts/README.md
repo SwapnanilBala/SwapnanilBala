@@ -14,7 +14,7 @@ scripts/build.py              the build
 
 ## Add screenshots
 
-1. Name each file `PREFIX_N`. The prefix belongs to a project (`LA` Lagna Atelier, `RH` Robust Health, `DA` Appointment Booking, `AN` Alignr, `FN` Fake News, `GW` GridWorld, `TK` TikTok, `BR` BRFSS, `CF` CIFAR-10, `LL` Little Lemon), and `N` is the order it appears in. Case and separators don't matter: `LA_1.png`, `la-1.PNG` and `La 1.jpeg` are all the same slot.
+1. Name each file `PREFIX_N`. The prefix belongs to a project (`LA` Lagna Atelier, `RH` Robust Health, `DA` Dr. Bala Clinic, `AN` Alignr, `CM` Consulting Marketplace, `FB` Fraud Benchmark, `FN` Fake News, `GW` GridWorld, `TK` Google capstones, `BR` BRFSS, `CF` CIFAR-10, `LL` Little Lemon), and `N` is the order it appears in. Case and separators don't matter: `LA_1.png`, `la-1.PNG` and `La 1.jpeg` are all the same slot.
 2. Upload them into `assets/` (GitHub: **Add file → Upload files**).
 3. Either wait for the **Build showcase** action (about a minute), or run it yourself:
    ```bash

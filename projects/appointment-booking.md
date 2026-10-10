@@ -2,17 +2,17 @@
 
 [← Back to profile](../README.md#featured-work)
 
-# Appointment Booking Platform
+# Dr. Bala Clinic Platform
 
-<p align="center"><img src="../assets/projects/appointment-booking/hero.webp" alt="Appointment Booking Platform screenshots" width="100%"></p>
+<p align="center"><img src="../assets/projects/appointment-booking/hero.webp" alt="Dr. Bala Clinic Platform screenshots" width="100%"></p>
 
 **Booking, scheduling and prescriptions for a live orthopedic clinic**
 
-Booking system for a live orthopedic clinic: patient booking, the doctor's daily schedule, an admin panel and WhatsApp notifications.
+The booking and prescription system a working orthopaedic practice runs on: patients book online, the doctor approves on a dashboard, confirmations go out on WhatsApp, and patients download their prescriptions.
 
-**3 portals: patient, doctor, admin** · **7-day availability view**
+**Patient, doctor & admin portals** · **English, Bengali & Hindi** · **Web, Android & iOS clients**
 
-**Stack:** `Node.js` `Express` `PostgreSQL` `Twilio`  
+**Stack:** `Node.js` `Express` `PostgreSQL` `Twilio` `Kotlin` `Swift`  
 **Live:** [drbalaortho.com](https://drbalaortho.com/)
 
 ## Screenshots (3)
@@ -32,4 +32,4 @@ Booking system for a live orthopedic clinic: patient booking, the doctor's daily
 
 ---
 
-[← Robust Health](robust-health.md) · [All projects](../README.md#featured-work) · [Alignr →](alignr.md)
+[← Lagna Atelier](lagna-atelier.md) · [All projects](../README.md#featured-work) · [Alignr →](alignr.md)

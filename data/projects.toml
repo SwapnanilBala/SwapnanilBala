@@ -24,39 +24,15 @@
 # ------------------------------------------------------------------ products
 
 [[project]]
-slug = "lagna-atelier"
-prefix = "LA"
-kind = "product"
-title = "Lagna Atelier"
-tagline = "Vedic birth charts with AI-written interpretations"
-summary = "Vedic astrology engine: birth charts across six ayanamshas and six house systems, dasha timelines, yoga detection and AI palm reading."
-tech = ["Next.js", "TypeScript", "astronomy-engine", "Neon + Drizzle", "Claude vision"]
-live = "https://lagnaatelier.site/"
-repo = "https://github.com/SwapnanilBala/Large_Astro_Web_App"
-highlights = ["1,863 tests", "23 divisional charts", "51 yogas detected"]
-hero = [2, 4, 5]
-bg = ["#0a0f24", "#241a4a"]
-accent = "#e0b76b"
-
-[project.captions]
-1 = "Guided onboarding: name, birth date, time and place, with a live sky preview"
-2 = "Daily overview: planetary positions, top takeaways, natal chart wheel and weekly energy"
-3 = "Connected Insight Zone: life-area tabs and a house-by-house support breakdown"
-4 = "Vimshottari Dasha timing: current periods, calculation audit and a full timeline"
-5 = "Lifetime yogas: detected planetary combinations ranked by strength"
-6 = "Karma and vocation: a symbolic reading drawn from lagna, nodes, nakshatra and dasha timing"
-7 = "Calculation settings: choose the ayanamsa and house system behind the chart"
-
-[[project]]
 slug = "robust-health"
 prefix = "RH"
 kind = "product"
 title = "Robust Health"
 tagline = "Programming, tracking and nutrition in one app"
-summary = "Fitness PWA that turns a member's profile into weekly training, nutrition and sleep plans, with separate member and trainer portals."
-tech = ["Next.js", "TypeScript", "Supabase", "Claude API", "Vercel"]
+summary = "Production fitness platform that writes personalised training and nutrition plans with Claude, then tracks whether members follow them. Members, trainers and admins each get a separately secured portal."
+tech = ["Next.js 16", "TypeScript", "Supabase", "Claude API", "Upstash Redis", "Vercel"]
 live = "https://app.robusthealth.in/"
-highlights = ["15 training programmes", "160+ exercises", "−50% web load time"]
+highlights = ["3 secured portals", "15 training programmes", "160+ exercises", "Native iOS + Android clients"]
 hero = [8, 1, 4]
 bg = ["#090b12", "#241046"]
 accent = "#8b5cf6"
@@ -76,15 +52,39 @@ accent = "#8b5cf6"
 5 = [[1302, 20, 1534, 52]]
 
 [[project]]
+slug = "lagna-atelier"
+prefix = "LA"
+kind = "product"
+title = "Lagna Atelier"
+tagline = "Vedic birth charts with AI-written interpretations"
+summary = "Vedic astrology engine that calculates charts across 36 ayanamsha and house-system combinations and grounds Claude-written readings in classical texts, in 7 languages."
+tech = ["Next.js 16", "TypeScript", "Swiss Ephemeris", "Neon + Drizzle", "Claude API"]
+live = "https://lagnaatelier.site/"
+repo = "https://github.com/SwapnanilBala/Large_Astro_Web_App"
+highlights = ["1,863 tests", "23 divisional charts", "51 yogas detected", "7 languages"]
+hero = [2, 4, 5]
+bg = ["#0a0f24", "#241a4a"]
+accent = "#e0b76b"
+
+[project.captions]
+1 = "Guided onboarding: name, birth date, time and place, with a live sky preview"
+2 = "Daily overview: planetary positions, top takeaways, natal chart wheel and weekly energy"
+3 = "Connected Insight Zone: life-area tabs and a house-by-house support breakdown"
+4 = "Vimshottari Dasha timing: current periods, calculation audit and a full timeline"
+5 = "Lifetime yogas: detected planetary combinations ranked by strength"
+6 = "Karma and vocation: a symbolic reading drawn from lagna, nodes, nakshatra and dasha timing"
+7 = "Calculation settings: choose the ayanamsa and house system behind the chart"
+
+[[project]]
 slug = "appointment-booking"
 prefix = "DA"
 kind = "product"
-title = "Appointment Booking Platform"
+title = "Dr. Bala Clinic Platform"
 tagline = "Booking, scheduling and prescriptions for a live orthopedic clinic"
-summary = "Booking system for a live orthopedic clinic: patient booking, the doctor's daily schedule, an admin panel and WhatsApp notifications."
-tech = ["Node.js", "Express", "PostgreSQL", "Twilio"]
+summary = "The booking and prescription system a working orthopaedic practice runs on: patients book online, the doctor approves on a dashboard, confirmations go out on WhatsApp, and patients download their prescriptions."
+tech = ["Node.js", "Express", "PostgreSQL", "Twilio", "Kotlin", "Swift"]
 live = "https://drbalaortho.com/"
-highlights = ["3 portals: patient, doctor, admin", "7-day availability view"]
+highlights = ["Patient, doctor & admin portals", "English, Bengali & Hindi", "Web, Android & iOS clients"]
 hero = [3, 1, 2]
 bg = ["#0b1a14", "#14382a"]
 accent = "#6fcf97"
@@ -117,36 +117,45 @@ accent = "#e07a5f"
 2 = "Workspace: recent comparisons and a ten-minute improvement plan"
 3 = "Match intelligence: resume score, keyword opportunities, skills coverage and top edits"
 
-# ------------------------------------------------------------------ academic
+# ------------------------------------------------------------------ more projects (compact table)
 # No screenshots yet. Upload FN_1.png, GW_1.png, ... to assets/ and each project gets a
 # gallery page automatically. Add  repo = "https://github.com/..."  to link the code.
 
 [[project]]
-slug = "fake-news-classifier"
-prefix = "FN"
+slug = "consulting-marketplace"
+prefix = "CM"
 kind = "academic"
-title = "Fake News Classifier"
-summary = "DistilBERT vs RoBERTa vs a TF-IDF baseline on LIAR political claims; best validation macro-F1 0.558, +0.033 over TF-IDF."
-tech = ["Python", "PyTorch", "Transformers"]
-repo = "https://github.com/SwapnanilBala/Fake-News-Classifier"
+title = "Consulting Marketplace"
+summary = "Client and consultant marketplace with session booking, real-time chat and presence, a community board and subscription billing."
+tech = ["Next.js", "NextAuth", "Neon + Drizzle", "Ably", "Razorpay"]
+repo = "https://github.com/SwapnanilBala/Consulting_App_NEXt.Js"
 
 [[project]]
 slug = "gridworld"
 prefix = "GW"
 kind = "academic"
 title = "GridWorld Search Visualizer"
-summary = "Watch BFS, DFS, DLS, UCS, A* and bidirectional search run on grid maps, with expanded-node and frontier metrics."
-tech = ["Python", "Pygame"]
+summary = "Races two of six search algorithms (BFS, DFS, DLS, UCS, A*, bidirectional) on a weighted grid and charts expanded nodes and frontier size."
+tech = ["Python", "Pygame", "Matplotlib"]
 repo = "https://github.com/SwapnanilBala/Grid_Game_With_Multiple_SA"
 
 [[project]]
-slug = "tiktok-claims-classifier"
-prefix = "TK"
+slug = "fake-news-classifier"
+prefix = "FN"
 kind = "academic"
-title = "TikTok Claims Classifier"
-summary = "Classifies TikTok videos as claims or opinions at ~99.5% recall. Google Advanced Data Analytics capstone."
+title = "Fake News Classifier"
+summary = "DistilBERT and RoBERTa vs a TF-IDF baseline on 12.8k LIAR political claims; best validation macro-F1 0.558, +0.033 over TF-IDF and reported as the small gain it is."
+tech = ["Python", "PyTorch", "Transformers"]
+repo = "https://github.com/SwapnanilBala/Fake-News-Classifier"
+
+[[project]]
+slug = "fraud-benchmark"
+prefix = "FB"
+kind = "academic"
+title = "Transaction Fraud Benchmark"
+summary = "Benchmarks Random Forest, XGBoost and friends on transaction data, and caught the label leaking through ID and date ordering before trusting a score."
 tech = ["Python", "scikit-learn", "XGBoost"]
-repo = "https://github.com/SwapnanilBala/Tik-Tok"
+repo = "https://github.com/SwapnanilBala/A-Brief_Comparision_Summary_of_the_Famous_predicting_models_on_Transaction_Data"
 
 [[project]]
 slug = "brfss-dashboard"
@@ -158,6 +167,24 @@ tech = ["Python", "Plotly Dash", "pandas"]
 repo = "https://github.com/SwapnanilBala/BRFSS_Dash_App"
 
 [[project]]
+slug = "tiktok-claims-classifier"
+prefix = "TK"
+kind = "academic"
+title = "Google Data Analytics Capstones"
+summary = "Three end-to-end ML projects: TikTok claim vs opinion (~99.5% recall), NYC taxi tip prediction ([Automatidata](https://github.com/SwapnanilBala/Automatidata)) and Waze churn ([Waze](https://github.com/SwapnanilBala/Waze))."
+tech = ["Python", "scikit-learn", "XGBoost"]
+repo = "https://github.com/SwapnanilBala/Tik-Tok"
+
+[[project]]
+slug = "little-lemon-database"
+prefix = "LL"
+kind = "academic"
+title = "Little Lemon Database System"
+summary = "Meta Database Engineer capstone: a 10-table normalized MySQL schema with 6 audit triggers, stored procedures and a Tableau dashboard."
+tech = ["SQL", "MySQL", "Tableau"]
+repo = "https://github.com/SwapnanilBala/Little_Lemon_Data_base_Plus_Auto_Prescription_App"
+
+[[project]]
 slug = "cifar10-cnn"
 prefix = "CF"
 kind = "academic"
@@ -165,12 +192,3 @@ title = "CIFAR-10 Image Classifier"
 summary = "Small convolutional network trained from scratch on CIFAR-10: 72.3% test accuracy after 5 epochs, about 4 minutes on a CPU."
 tech = ["Python", "PyTorch"]
 repo = "https://github.com/SwapnanilBala/Pytorch_Beginner_Image_Classification"
-
-[[project]]
-slug = "little-lemon-database"
-prefix = "LL"
-kind = "academic"
-title = "Little Lemon Database System"
-summary = "Meta Database Engineer capstone: a normalized MySQL schema with stored procedures and complex queries."
-tech = ["SQL", "MySQL"]
-repo = "https://github.com/SwapnanilBala/Little_Lemon_Data_base_Plus_Auto_Prescription_App"

@@ -32,4 +32,4 @@ Resume analyzer: scores a resume against a job description across eight weighted
 
 ---
 
-[← Appointment Booking Platform](appointment-booking.md) · [All projects](../README.md#featured-work)
+[← Dr. Bala Clinic Platform](appointment-booking.md) · [All projects](../README.md#featured-work)
