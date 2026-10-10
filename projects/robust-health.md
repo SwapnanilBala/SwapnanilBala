@@ -8,11 +8,11 @@
 
 **Programming, tracking and nutrition in one app**
 
-Fitness PWA that turns a member's profile into weekly training, nutrition and sleep plans, with separate member and trainer portals.
+Production fitness platform that writes personalised training and nutrition plans with Claude, then tracks whether members follow them. Members, trainers and admins each get a separately secured portal.
 
-**15 training programmes** · **160+ exercises** · **−50% web load time**
+**3 secured portals** · **15 training programmes** · **160+ exercises** · **Native iOS + Android clients**
 
-**Stack:** `Next.js` `TypeScript` `Supabase` `Claude API` `Vercel`  
+**Stack:** `Next.js 16` `TypeScript` `Supabase` `Claude API` `Upstash Redis` `Vercel`  
 **Live:** [app.robusthealth.in](https://app.robusthealth.in/)
 
 ## Screenshots (8)
@@ -42,4 +42,4 @@ Fitness PWA that turns a member's profile into weekly training, nutrition and sl
 
 ---
 
-[← Lagna Atelier](lagna-atelier.md) · [All projects](../README.md#featured-work) · [Appointment Booking Platform →](appointment-booking.md)
+[All projects](../README.md#featured-work) · [Lagna Atelier →](lagna-atelier.md)
