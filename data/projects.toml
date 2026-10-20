@@ -34,18 +34,19 @@ tech = ["Next.js", "TypeScript", "astronomy-engine", "Neon + Drizzle", "Claude v
 live = "https://lagnaatelier.site/"
 repo = "https://github.com/SwapnanilBala/Large_Astro_Web_App"
 highlights = ["1,863 tests", "23 divisional charts", "51 yogas detected"]
-hero = [2, 4, 5]
+hero = [3, 4, 7]
 bg = ["#0a0f24", "#241a4a"]
 accent = "#e0b76b"
 
 [project.captions]
 1 = "Guided onboarding: name, birth date, time and place, with a live sky preview"
-2 = "Daily overview: planetary positions, top takeaways, natal chart wheel and weekly energy"
-3 = "Connected Insight Zone: life-area tabs and a house-by-house support breakdown"
-4 = "Vimshottari Dasha timing: current periods, calculation audit and a full timeline"
-5 = "Lifetime yogas: detected planetary combinations ranked by strength"
-6 = "Karma and vocation: a symbolic reading drawn from lagna, nodes, nakshatra and dasha timing"
-7 = "Calculation settings: choose the ayanamsa and house system behind the chart"
+2 = "Calculation settings: choose the ayanamsa and house system behind the chart"
+3 = "Chart overview: today's sky, the core placements and the three takeaways that matter first"
+4 = "Rashi chart wheel and placements, next to the week's energy forecast"
+5 = "Connected Insight Zone: seven life areas, plus Ashtakavarga support across the twelve houses"
+6 = "Vimshottari Dasha timing: the current chapter down to Sookshma, a full timeline and a period reading"
+7 = "Lifetime yogas: detected planetary combinations, filtered by strength"
+8 = "Chart atlas and findings: D1, D9 and D10 charts, and the evidence behind each reading"
 
 [[project]]
 slug = "robust-health"
@@ -57,23 +58,21 @@ summary = "Fitness PWA that turns a member's profile into weekly training, nutri
 tech = ["Next.js", "TypeScript", "Supabase", "Claude API", "Vercel"]
 live = "https://app.robusthealth.in/"
 highlights = ["15 training programmes", "160+ exercises", "−50% web load time"]
-hero = [8, 1, 4]
-bg = ["#090b12", "#241046"]
-accent = "#8b5cf6"
+hero = [5, 1, 3]
+bg = ["#050806", "#17230b"]
+accent = "#22e06b"
 
 [project.captions]
-1 = "Guided workout on mobile: exercise-by-exercise flow with sets, reps and progress"
-2 = "Mobile dashboard: active programme, weekly stats and recent activity"
-3 = "Inbox and the More menu: plans, biometrics, history, analytics and calendar"
-4 = "Workout summary with per-exercise results"
-5 = "Web dashboard: greeting, programme overview and the day-by-day plan"
-6 = "Landing page: how a plan gets written and followed"
-7 = "Member portal: sign in or create an account with Google, Discord, GitHub or email"
-8 = "Landing hero: structured programming, refined every week"
-
-[project.redact]
-# RH_5 shows the signed-in email in the navbar; paint over the text.
-5 = [[1302, 20, 1534, 52]]
+1 = "Mobile home: train, eat, recover, adapt"
+2 = "Getting started on mobile: a personalised plan or a quick start"
+3 = "Quick start: maintenance calories from your numbers, and a peek at Day 1 of a programme"
+4 = "Member sign-in on mobile: create an account or sign in"
+5 = "Landing page: training, nutrition and recovery that adapt to real adherence"
+6 = "Built for beginners, lifters and powerlifters, with your own coach for free"
+7 = "How a week works: the intake, then a plan written four ways and reviewed by a coach"
+8 = "Logging a session in the gym, and the coach's view of the week"
+9 = "Programme library: 23 proven programmes with filters and calorie targets"
+10 = "Plans: Basic, Pro and Ultimate, with everything free while paid plans are off sale"
 
 [[project]]
 slug = "appointment-booking"
@@ -85,18 +84,18 @@ summary = "Booking system for a live orthopedic clinic: patient booking, the doc
 tech = ["Node.js", "Express", "PostgreSQL", "Twilio"]
 live = "https://drbalaortho.com/"
 highlights = ["3 portals: patient, doctor, admin", "7-day availability view"]
-hero = [3, 1, 2]
-bg = ["#0b1a14", "#14382a"]
-accent = "#6fcf97"
+hero = [2, 4, 5]
+bg = ["#0a1d20", "#134a4f"]
+accent = "#7cc4b8"
 
 [project.captions]
-1 = "Patient booking home: choose a city and chamber, or log in as a returning patient"
-2 = "Doctor dashboard login: schedule, availability and prescription tools"
-3 = "Daily schedule and availability manager: toggle the days patients can book"
-
-[project.trim_bottom]
-# DA_1 ends on a half-visible footer card.
-1 = 160
+1 = "Booking home: the doctor's week, the three towns and their chambers, and returning-patient sign-in"
+2 = "Day and time: the chamber's open days and half-hour slots"
+3 = "Patient details: nothing is confirmed until the doctor approves on WhatsApp"
+4 = "Booking on mobile: pick a town to start"
+5 = "Picking a slot on mobile, with the visit summary pinned to the bottom"
+6 = "The whole site in Bengali, with Hindi and English one tap away"
+7 = "Clinic admin sign-in for staff"
 
 [[project]]
 slug = "alignr"
@@ -108,14 +107,16 @@ summary = "Resume analyzer: scores a resume against a job description across eig
 tech = ["Next.js", "TypeScript", "Python", "Neon"]
 live = "https://resume-handler-kappa.vercel.app/"
 highlights = ["8 scoring dimensions", "23 role templates", "Parses PDF, DOCX, TXT and TEX"]
-hero = [1, 3, 2]
+hero = [4, 2, 1]
 bg = ["#141a17", "#2c211b"]
 accent = "#e07a5f"
 
 [project.captions]
 1 = "Overview: start a comparison with a resume and a job description"
-2 = "Workspace: recent comparisons and a ten-minute improvement plan"
-3 = "Match intelligence: resume score, keyword opportunities, skills coverage and top edits"
+2 = "Match intelligence: resume score, keyword opportunities, skills coverage and top edits"
+3 = "Workspace: recent comparisons and a ten-minute improvement plan"
+4 = "Compare drafts: two versions of a resume scored against the same role"
+5 = "Job matches: rank one resume against up to ten roles"
 
 # ------------------------------------------------------------------ academic
 # No screenshots yet. Upload FN_1.png, GW_1.png, ... to assets/ and each project gets a

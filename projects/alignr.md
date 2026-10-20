@@ -15,18 +15,25 @@ Resume analyzer: scores a resume against a job description across eight weighted
 **Stack:** `Next.js` `TypeScript` `Python` `Neon`  
 **Live:** [resume-handler-kappa.vercel.app](https://resume-handler-kappa.vercel.app/)
 
-## Screenshots (3)
+## Screenshots (5)
 
 <table>
 <tr>
-<td align="center" valign="top"><img src="../assets/projects/alignr/01.webp" width="100%" alt="Overview: start a comparison with a resume and a job description"><br><sub>Overview: start a comparison with a resume and a job description</sub></td>
+<td align="center" valign="top"><img src="../assets/projects/alignr/01.webp" width="850" alt="Overview: start a comparison with a resume and a job description"><br><sub>Overview: start a comparison with a resume and a job description</sub></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/alignr/02.webp" width="100%" alt="Workspace: recent comparisons and a ten-minute improvement plan"><br><sub>Workspace: recent comparisons and a ten-minute improvement plan</sub></td>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/alignr/03.webp" width="100%" alt="Match intelligence: resume score, keyword opportunities, skills coverage and top edits"><br><sub>Match intelligence: resume score, keyword opportunities, skills coverage and top edits</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/alignr/02.webp" width="100%" alt="Match intelligence: resume score, keyword opportunities, skills coverage and top edits"><br><sub>Match intelligence: resume score, keyword opportunities, skills coverage and top edits</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/alignr/03.webp" width="100%" alt="Workspace: recent comparisons and a ten-minute improvement plan"><br><sub>Workspace: recent comparisons and a ten-minute improvement plan</sub></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/alignr/04.webp" width="100%" alt="Compare drafts: two versions of a resume scored against the same role"><br><sub>Compare drafts: two versions of a resume scored against the same role</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/alignr/05.webp" width="100%" alt="Job matches: rank one resume against up to ten roles"><br><sub>Job matches: rank one resume against up to ten roles</sub></td>
 </tr>
 </table>
 

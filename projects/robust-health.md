@@ -15,28 +15,35 @@ Fitness PWA that turns a member's profile into weekly training, nutrition and sl
 **Stack:** `Next.js` `TypeScript` `Supabase` `Claude API` `Vercel`  
 **Live:** [app.robusthealth.in](https://app.robusthealth.in/)
 
-## Screenshots (8)
+## Screenshots (10)
 
 <table>
 <tr>
-<td align="center" valign="top" width="25%"><img src="../assets/projects/robust-health/01.webp" width="100%" alt="Guided workout on mobile: exercise-by-exercise flow with sets, reps and progress"><br><sub>Guided workout on mobile: exercise-by-exercise flow with sets, reps and progress</sub></td>
-<td align="center" valign="top" width="25%"><img src="../assets/projects/robust-health/02.webp" width="100%" alt="Mobile dashboard: active programme, weekly stats and recent activity"><br><sub>Mobile dashboard: active programme, weekly stats and recent activity</sub></td>
-<td align="center" valign="top" width="25%"><img src="../assets/projects/robust-health/03.webp" width="100%" alt="Inbox and the More menu: plans, biometrics, history, analytics and calendar"><br><sub>Inbox and the More menu: plans, biometrics, history, analytics and calendar</sub></td>
-<td align="center" valign="top" width="25%"><img src="../assets/projects/robust-health/04.webp" width="100%" alt="Workout summary with per-exercise results"><br><sub>Workout summary with per-exercise results</sub></td>
+<td align="center" valign="top" width="25%"><img src="../assets/projects/robust-health/01.webp" width="100%" alt="Mobile home: train, eat, recover, adapt"><br><sub>Mobile home: train, eat, recover, adapt</sub></td>
+<td align="center" valign="top" width="25%"><img src="../assets/projects/robust-health/02.webp" width="100%" alt="Getting started on mobile: a personalised plan or a quick start"><br><sub>Getting started on mobile: a personalised plan or a quick start</sub></td>
+<td align="center" valign="top" width="25%"><img src="../assets/projects/robust-health/03.webp" width="100%" alt="Quick start: maintenance calories from your numbers, and a peek at Day 1 of a programme"><br><sub>Quick start: maintenance calories from your numbers, and a peek at Day 1 of a programme</sub></td>
+<td align="center" valign="top" width="25%"><img src="../assets/projects/robust-health/04.webp" width="100%" alt="Member sign-in on mobile: create an account or sign in"><br><sub>Member sign-in on mobile: create an account or sign in</sub></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/robust-health/05.webp" width="100%" alt="Web dashboard: greeting, programme overview and the day-by-day plan"><br><sub>Web dashboard: greeting, programme overview and the day-by-day plan</sub></td>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/robust-health/06.webp" width="100%" alt="Landing page: how a plan gets written and followed"><br><sub>Landing page: how a plan gets written and followed</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/robust-health/05.webp" width="100%" alt="Landing page: training, nutrition and recovery that adapt to real adherence"><br><sub>Landing page: training, nutrition and recovery that adapt to real adherence</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/robust-health/06.webp" width="100%" alt="Built for beginners, lifters and powerlifters, with your own coach for free"><br><sub>Built for beginners, lifters and powerlifters, with your own coach for free</sub></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/robust-health/07.webp" width="100%" alt="Member portal: sign in or create an account with Google, Discord, GitHub or email"><br><sub>Member portal: sign in or create an account with Google, Discord, GitHub or email</sub></td>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/robust-health/08.webp" width="100%" alt="Landing hero: structured programming, refined every week"><br><sub>Landing hero: structured programming, refined every week</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/robust-health/07.webp" width="100%" alt="How a week works: the intake, then a plan written four ways and reviewed by a coach"><br><sub>How a week works: the intake, then a plan written four ways and reviewed by a coach</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/robust-health/08.webp" width="100%" alt="Logging a session in the gym, and the coach&#x27;s view of the week"><br><sub>Logging a session in the gym, and the coach&#x27;s view of the week</sub></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/robust-health/09.webp" width="100%" alt="Programme library: 23 proven programmes with filters and calorie targets"><br><sub>Programme library: 23 proven programmes with filters and calorie targets</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/robust-health/10.webp" width="100%" alt="Plans: Basic, Pro and Ultimate, with everything free while paid plans are off sale"><br><sub>Plans: Basic, Pro and Ultimate, with everything free while paid plans are off sale</sub></td>
 </tr>
 </table>
 

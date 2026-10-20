@@ -61,7 +61,7 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
   <p>Vedic astrology engine: birth charts across six ayanamshas and six house systems, dasha timelines, yoga detection and AI palm reading.</p>
   <p><sub>1,863 tests · 23 divisional charts · 51 yogas detected</sub></p>
   <p><code>Next.js</code> <code>TypeScript</code> <code>astronomy-engine</code> <code>Neon + Drizzle</code> <code>Claude vision</code></p>
-  <p><a href="https://lagnaatelier.site/"><b>Live app ↗</b></a> · <a href="https://github.com/SwapnanilBala/Large_Astro_Web_App">Code</a> · <a href="projects/lagna-atelier.md">Gallery · 7 screens</a></p>
+  <p><a href="https://lagnaatelier.site/"><b>Live app ↗</b></a> · <a href="https://github.com/SwapnanilBala/Large_Astro_Web_App">Code</a> · <a href="projects/lagna-atelier.md">Gallery · 8 screens</a></p>
 </td>
 <td width="50%" valign="top">
   <a href="projects/robust-health.md"><img src="assets/projects/robust-health/hero.webp" alt="Robust Health screenshots" width="100%"></a>
@@ -69,7 +69,7 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
   <p>Fitness PWA that turns a member&#x27;s profile into weekly training, nutrition and sleep plans, with separate member and trainer portals.</p>
   <p><sub>15 training programmes · 160+ exercises · −50% web load time</sub></p>
   <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Claude API</code> <code>Vercel</code></p>
-  <p><a href="https://app.robusthealth.in/"><b>Live app ↗</b></a> · <a href="projects/robust-health.md">Gallery · 8 screens</a></p>
+  <p><a href="https://app.robusthealth.in/"><b>Live app ↗</b></a> · <a href="projects/robust-health.md">Gallery · 10 screens</a></p>
 </td>
 </tr>
 <tr>
@@ -79,7 +79,7 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
   <p>Booking system for a live orthopedic clinic: patient booking, the doctor&#x27;s daily schedule, an admin panel and WhatsApp notifications.</p>
   <p><sub>3 portals: patient, doctor, admin · 7-day availability view</sub></p>
   <p><code>Node.js</code> <code>Express</code> <code>PostgreSQL</code> <code>Twilio</code></p>
-  <p><a href="https://drbalaortho.com/"><b>Live app ↗</b></a> · <a href="projects/appointment-booking.md">Gallery · 3 screens</a></p>
+  <p><a href="https://drbalaortho.com/"><b>Live app ↗</b></a> · <a href="projects/appointment-booking.md">Gallery · 7 screens</a></p>
 </td>
 <td width="50%" valign="top">
   <a href="projects/alignr.md"><img src="assets/projects/alignr/hero.webp" alt="Alignr screenshots" width="100%"></a>
@@ -87,7 +87,7 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
   <p>Resume analyzer: scores a resume against a job description across eight weighted dimensions, compares drafts and ranks up to ten job posts.</p>
   <p><sub>8 scoring dimensions · 23 role templates · Parses PDF, DOCX, TXT and TEX</sub></p>
   <p><code>Next.js</code> <code>TypeScript</code> <code>Python</code> <code>Neon</code></p>
-  <p><a href="https://resume-handler-kappa.vercel.app/"><b>Live app ↗</b></a> · <a href="projects/alignr.md">Gallery · 3 screens</a></p>
+  <p><a href="https://resume-handler-kappa.vercel.app/"><b>Live app ↗</b></a> · <a href="projects/alignr.md">Gallery · 5 screens</a></p>
 </td>
 </tr>
 </table>
