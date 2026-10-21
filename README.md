@@ -59,7 +59,7 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
   <a href="projects/lagna-atelier.md"><img src="assets/projects/lagna-atelier/hero.webp" alt="Lagna Atelier screenshots" width="100%"></a>
   <h3>Lagna Atelier</h3>
   <p>Vedic astrology engine: birth charts across six ayanamshas and six house systems, dasha timelines, yoga detection and AI palm reading.</p>
-  <p><sub>1,863 tests · 23 divisional charts · 51 yogas detected</sub></p>
+  <p><sub>1,863 tests · 20 divisional charts · 51 yogas detected</sub></p>
   <p><code>Next.js</code> <code>TypeScript</code> <code>astronomy-engine</code> <code>Neon + Drizzle</code> <code>Claude vision</code></p>
   <p><a href="https://lagnaatelier.site/"><b>Live app ↗</b></a> · <a href="https://github.com/SwapnanilBala/Large_Astro_Web_App">Code</a> · <a href="projects/lagna-atelier.md">Gallery · 8 screens</a></p>
 </td>
@@ -67,7 +67,7 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
   <a href="projects/robust-health.md"><img src="assets/projects/robust-health/hero.webp" alt="Robust Health screenshots" width="100%"></a>
   <h3>Robust Health</h3>
   <p>Fitness PWA that turns a member&#x27;s profile into weekly training, nutrition and sleep plans, with separate member and trainer portals.</p>
-  <p><sub>15 training programmes · 160+ exercises · −50% web load time</sub></p>
+  <p><sub>23 training programmes · 900+ exercises · −50% web load time</sub></p>
   <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Claude API</code> <code>Vercel</code></p>
   <p><a href="https://app.robusthealth.in/"><b>Live app ↗</b></a> · <a href="projects/robust-health.md">Gallery · 10 screens</a></p>
 </td>

@@ -10,7 +10,7 @@
 
 Fitness PWA that turns a member's profile into weekly training, nutrition and sleep plans, with separate member and trainer portals.
 
-**15 training programmes** · **160+ exercises** · **−50% web load time**
+**23 training programmes** · **900+ exercises** · **−50% web load time**
 
 **Stack:** `Next.js` `TypeScript` `Supabase` `Claude API` `Vercel`  
 **Live:** [app.robusthealth.in](https://app.robusthealth.in/)
