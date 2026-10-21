@@ -67,7 +67,7 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
   <a href="projects/robust-health.md"><img src="assets/projects/robust-health/hero.webp" alt="Robust Health screenshots" width="100%"></a>
   <h3>Robust Health</h3>
   <p>Fitness PWA that turns a member&#x27;s profile into weekly training, nutrition and sleep plans, with separate member and trainer portals.</p>
-  <p><sub>23 training programmes · 900+ exercises · −50% web load time</sub></p>
+  <p><sub>23 training programmes · 450 exercises · −50% web load time</sub></p>
   <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Claude API</code> <code>Vercel</code></p>
   <p><a href="https://app.robusthealth.in/"><b>Live app ↗</b></a> · <a href="projects/robust-health.md">Gallery · 10 screens</a></p>
 </td>
