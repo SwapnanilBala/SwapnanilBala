@@ -15,18 +15,37 @@ Booking system for a live orthopedic clinic: patient booking, the doctor's daily
 **Stack:** `Node.js` `Express` `PostgreSQL` `Twilio`  
 **Live:** [drbalaortho.com](https://drbalaortho.com/)
 
-## Screenshots (3)
+## Screenshots (7)
 
 <table>
 <tr>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/appointment-booking/01.webp" width="100%" alt="Patient booking home: choose a city and chamber, or log in as a returning patient"><br><sub>Patient booking home: choose a city and chamber, or log in as a returning patient</sub></td>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/appointment-booking/02.webp" width="100%" alt="Doctor dashboard login: schedule, availability and prescription tools"><br><sub>Doctor dashboard login: schedule, availability and prescription tools</sub></td>
+<td align="center" valign="top"><img src="../assets/projects/appointment-booking/01.webp" width="548" alt="Booking home: the doctor&#x27;s week, the three towns and their chambers, and returning-patient sign-in"><br><sub>Booking home: the doctor&#x27;s week, the three towns and their chambers, and returning-patient sign-in</sub></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td align="center" valign="top"><img src="../assets/projects/appointment-booking/03.webp" width="100%" alt="Daily schedule and availability manager: toggle the days patients can book"><br><sub>Daily schedule and availability manager: toggle the days patients can book</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/appointment-booking/02.webp" width="100%" alt="Day and time: the chamber&#x27;s open days and half-hour slots"><br><sub>Day and time: the chamber&#x27;s open days and half-hour slots</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/appointment-booking/03.webp" width="100%" alt="Patient details: nothing is confirmed until the doctor approves on WhatsApp"><br><sub>Patient details: nothing is confirmed until the doctor approves on WhatsApp</sub></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" valign="top"><img src="../assets/projects/appointment-booking/04.webp" width="190" alt="Booking on mobile: pick a town to start"><br><sub>Booking on mobile: pick a town to start</sub></td>
+<td align="center" valign="top"><img src="../assets/projects/appointment-booking/05.webp" width="190" alt="Picking a slot on mobile, with the visit summary pinned to the bottom"><br><sub>Picking a slot on mobile, with the visit summary pinned to the bottom</sub></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" valign="top"><img src="../assets/projects/appointment-booking/06.webp" width="100%" alt="The whole site in Bengali, with Hindi and English one tap away"><br><sub>The whole site in Bengali, with Hindi and English one tap away</sub></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" valign="top"><img src="../assets/projects/appointment-booking/07.webp" width="100%" alt="Clinic admin sign-in for staff"><br><sub>Clinic admin sign-in for staff</sub></td>
 </tr>
 </table>
 

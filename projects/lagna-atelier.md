@@ -16,42 +16,33 @@ Vedic astrology engine: birth charts across six ayanamshas and six house systems
 **Live:** [lagnaatelier.site](https://lagnaatelier.site/)  
 **Code:** [github.com/SwapnanilBala/Large_Astro_Web_App](https://github.com/SwapnanilBala/Large_Astro_Web_App)
 
-## Screenshots (7)
+## Screenshots (8)
 
 <table>
 <tr>
-<td align="center" valign="top"><img src="../assets/projects/lagna-atelier/01.webp" width="100%" alt="Guided onboarding: name, birth date, time and place, with a live sky preview"><br><sub>Guided onboarding: name, birth date, time and place, with a live sky preview</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/lagna-atelier/01.webp" width="100%" alt="Guided onboarding: name, birth date, time and place, with a live sky preview"><br><sub>Guided onboarding: name, birth date, time and place, with a live sky preview</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/lagna-atelier/02.webp" width="100%" alt="Calculation settings: choose the ayanamsa and house system behind the chart"><br><sub>Calculation settings: choose the ayanamsa and house system behind the chart</sub></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td align="center" valign="top"><img src="../assets/projects/lagna-atelier/02.webp" width="100%" alt="Daily overview: planetary positions, top takeaways, natal chart wheel and weekly energy"><br><sub>Daily overview: planetary positions, top takeaways, natal chart wheel and weekly energy</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/lagna-atelier/03.webp" width="100%" alt="Chart overview: today&#x27;s sky, the core placements and the three takeaways that matter first"><br><sub>Chart overview: today&#x27;s sky, the core placements and the three takeaways that matter first</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/lagna-atelier/04.webp" width="100%" alt="Rashi chart wheel and placements, next to the week&#x27;s energy forecast"><br><sub>Rashi chart wheel and placements, next to the week&#x27;s energy forecast</sub></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td align="center" valign="top"><img src="../assets/projects/lagna-atelier/03.webp" width="100%" alt="Connected Insight Zone: life-area tabs and a house-by-house support breakdown"><br><sub>Connected Insight Zone: life-area tabs and a house-by-house support breakdown</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/lagna-atelier/05.webp" width="100%" alt="Connected Insight Zone: seven life areas, plus Ashtakavarga support across the twelve houses"><br><sub>Connected Insight Zone: seven life areas, plus Ashtakavarga support across the twelve houses</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/lagna-atelier/06.webp" width="100%" alt="Vimshottari Dasha timing: the current chapter down to Sookshma, a full timeline and a period reading"><br><sub>Vimshottari Dasha timing: the current chapter down to Sookshma, a full timeline and a period reading</sub></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td align="center" valign="top"><img src="../assets/projects/lagna-atelier/04.webp" width="100%" alt="Vimshottari Dasha timing: current periods, calculation audit and a full timeline"><br><sub>Vimshottari Dasha timing: current periods, calculation audit and a full timeline</sub></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/lagna-atelier/05.webp" width="100%" alt="Lifetime yogas: detected planetary combinations ranked by strength"><br><sub>Lifetime yogas: detected planetary combinations ranked by strength</sub></td>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/lagna-atelier/06.webp" width="100%" alt="Karma and vocation: a symbolic reading drawn from lagna, nodes, nakshatra and dasha timing"><br><sub>Karma and vocation: a symbolic reading drawn from lagna, nodes, nakshatra and dasha timing</sub></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center" valign="top"><img src="../assets/projects/lagna-atelier/07.webp" width="100%" alt="Calculation settings: choose the ayanamsa and house system behind the chart"><br><sub>Calculation settings: choose the ayanamsa and house system behind the chart</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/lagna-atelier/07.webp" width="100%" alt="Lifetime yogas: detected planetary combinations, filtered by strength"><br><sub>Lifetime yogas: detected planetary combinations, filtered by strength</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/lagna-atelier/08.webp" width="100%" alt="Chart atlas and findings: D1, D9 and D10 charts, and the evidence behind each reading"><br><sub>Chart atlas and findings: D1, D9 and D10 charts, and the evidence behind each reading</sub></td>
 </tr>
 </table>
 
