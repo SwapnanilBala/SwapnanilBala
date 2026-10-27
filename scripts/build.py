@@ -419,8 +419,10 @@ def card(p, shots, has_page, colspan, compact=False):
         src = f"assets/projects/{slug}/hero.webp"
     img = ""
     if src:
-        pic = f'<img src="{src}" alt="{esc(p["title"])} screenshots" width="100%">'
-        img = f'  <a href="{page}">{pic}</a>\n' if has_page else f"  {pic}\n"
+        width = "70%" if compact and colspan else "100%"  # a lone compact card shouldn't outweigh Featured Work
+        pic = f'<img src="{src}" alt="{esc(p["title"])} screenshots" width="{width}">'
+        pic = f'<a href="{page}">{pic}</a>' if has_page else pic
+        img = f'  <p align="center">{pic}</p>\n' if width != "100%" else f"  {pic}\n"
     links = []
     if p.get("live"):
         links.append(f'<a href="{esc(p["live"])}"><b>Live app ↗</b></a>')

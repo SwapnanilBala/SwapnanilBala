@@ -143,7 +143,7 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 </tr>
 <tr>
 <td colspan="2" valign="top">
-  <a href="projects/gridworld.md"><img src="assets/projects/gridworld/01.gif" alt="GridWorld Search Visualizer screenshots" width="100%"></a>
+  <p align="center"><a href="projects/gridworld.md"><img src="assets/projects/gridworld/01.gif" alt="GridWorld Search Visualizer screenshots" width="70%"></a></p>
   <h4>GridWorld Search Visualizer</h4>
   <p>Race two of BFS, DFS, DLS, UCS, A* and bidirectional search side by side on the same map, and watch every node expansion replay live.</p>
   <p><sub>6 algorithms · 10 maps · A* finds the optimal path with half the expansions of UCS</sub></p>
