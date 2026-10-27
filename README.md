@@ -7,7 +7,7 @@
 
 <p align="center">
   Data science grad student at Northeastern who loves building things people actually use.<br>
-  <!--live-->4<!--/live--> live apps so far, plus NLP, vision and search projects.
+  <!--live-->5<!--/live--> live apps so far, plus NLP, vision and search projects.
 </p>
 
 <p align="center">
@@ -100,10 +100,10 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 <!-- academic:start -->
 | Project | What it does | Stack | Links |
 |---|---|---|---|
-| **Fake News Classifier** | DistilBERT vs RoBERTa vs a TF-IDF baseline on LIAR political claims; best validation macro-F1 0.558, +0.033 over TF-IDF. | `Python` `PyTorch` `Transformers` | [Code](https://github.com/SwapnanilBala/Fake-News-Classifier) |
+| **BRFSS Health Dashboard** | Any CDC BRFSS survey question (2011–present) broken down by gender, age, race, education, income, year and state, with 95% intervals. Pre-aggregated to 0.68 MB so it runs serverless. | `Python` `Plotly Dash` `pandas` `Vercel` | [**Live ↗**](https://brfssdashanalysis.vercel.app/) · [Code](https://github.com/SwapnanilBala/BRFSS_Dash_App) |
+| **Fake News Classifier** | DistilBERT and RoBERTa vs TF-IDF baselines on 12.8k LIAR political claims; best test macro-F1 0.686 (AUC 0.763), +0.034 over the best baseline. | `Python` `PyTorch` `Transformers` `scikit-learn` | [Code](https://github.com/SwapnanilBala/Fake-News-Classifier) |
 | **GridWorld Search Visualizer** | Watch BFS, DFS, DLS, UCS, A* and bidirectional search run on grid maps, with expanded-node and frontier metrics. | `Python` `Pygame` | [Code](https://github.com/SwapnanilBala/Grid_Game_With_Multiple_SA) |
 | **TikTok Claims Classifier** | Classifies TikTok videos as claims or opinions at ~99.5% recall. Google Advanced Data Analytics capstone. | `Python` `scikit-learn` `XGBoost` | [Code](https://github.com/SwapnanilBala/Tik-Tok) |
-| **BRFSS Health Dashboard** | Interactive dashboard of CDC BRFSS health indicators by demographic group, with confidence intervals and yearly trends. | `Python` `Plotly Dash` `pandas` | [Code](https://github.com/SwapnanilBala/BRFSS_Dash_App) |
 | **CIFAR-10 Image Classifier** | Small convolutional network trained from scratch on CIFAR-10: 72.3% test accuracy after 5 epochs, about 4 minutes on a CPU. | `Python` `PyTorch` | [Code](https://github.com/SwapnanilBala/Pytorch_Beginner_Image_Classification) |
 | **Little Lemon Database System** | Meta Database Engineer capstone: a normalized MySQL schema with stored procedures and complex queries. | `SQL` `MySQL` | [Code](https://github.com/SwapnanilBala/Little_Lemon_Data_base_Plus_Auto_Prescription_App) |
 <!-- academic:end -->

@@ -436,12 +436,14 @@ def featured_block(products, shots_by_slug, pages):
 
 
 def academic_block(items, shots_by_slug, pages):
-    linked = any(p.get("repo") or p["slug"] in pages for p in items)
+    linked = any(p.get("live") or p.get("repo") or p["slug"] in pages for p in items)
     head = "| Project | What it does | Stack |" + (" Links |" if linked else "")
     rule = "|---|---|---|" + ("---|" if linked else "")
     lines = [head, rule]
     for p in items:
         links = []
+        if p.get("live"):
+            links.append(f"[**Live ↗**]({p['live']})")
         if p["slug"] in pages:
             links.append(f"[Gallery](projects/{p['slug']}.md)")
         if p.get("repo"):
@@ -464,7 +466,7 @@ def update_readme(projects, shots_by_slug, pages):
     text = README.read_text("utf-8")
     text = replace_block(text, "featured", featured_block(products, shots_by_slug, pages))
     text = replace_block(text, "academic", academic_block(academic, shots_by_slug, pages))
-    live = sum(1 for p in products if p.get("live"))
+    live = sum(1 for p in projects if p.get("live"))
     text = re.sub(r"<!--live-->.*?<!--/live-->", f"<!--live-->{live}<!--/live-->", text)
     if text != README.read_text("utf-8"):
         README.write_text(text, "utf-8")

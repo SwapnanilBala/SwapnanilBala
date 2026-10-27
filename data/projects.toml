@@ -120,15 +120,26 @@ accent = "#e07a5f"
 
 # ------------------------------------------------------------------ academic
 # No screenshots yet. Upload FN_1.png, GW_1.png, ... to assets/ and each project gets a
-# gallery page automatically. Add  repo = "https://github.com/..."  to link the code.
+# gallery page automatically. Add  repo = "https://github.com/..."  to link the code,
+# and  live = "https://..."  for a deployed app (it also counts toward the "live apps" line).
+
+[[project]]
+slug = "brfss-dashboard"
+prefix = "BR"
+kind = "academic"
+title = "BRFSS Health Dashboard"
+summary = "Any CDC BRFSS survey question (2011–present) broken down by gender, age, race, education, income, year and state, with 95% intervals. Pre-aggregated to 0.68 MB so it runs serverless."
+tech = ["Python", "Plotly Dash", "pandas", "Vercel"]
+live = "https://brfssdashanalysis.vercel.app/"
+repo = "https://github.com/SwapnanilBala/BRFSS_Dash_App"
 
 [[project]]
 slug = "fake-news-classifier"
 prefix = "FN"
 kind = "academic"
 title = "Fake News Classifier"
-summary = "DistilBERT vs RoBERTa vs a TF-IDF baseline on LIAR political claims; best validation macro-F1 0.558, +0.033 over TF-IDF."
-tech = ["Python", "PyTorch", "Transformers"]
+summary = "DistilBERT and RoBERTa vs TF-IDF baselines on 12.8k LIAR political claims; best test macro-F1 0.686 (AUC 0.763), +0.034 over the best baseline."
+tech = ["Python", "PyTorch", "Transformers", "scikit-learn"]
 repo = "https://github.com/SwapnanilBala/Fake-News-Classifier"
 
 [[project]]
@@ -148,15 +159,6 @@ title = "TikTok Claims Classifier"
 summary = "Classifies TikTok videos as claims or opinions at ~99.5% recall. Google Advanced Data Analytics capstone."
 tech = ["Python", "scikit-learn", "XGBoost"]
 repo = "https://github.com/SwapnanilBala/Tik-Tok"
-
-[[project]]
-slug = "brfss-dashboard"
-prefix = "BR"
-kind = "academic"
-title = "BRFSS Health Dashboard"
-summary = "Interactive dashboard of CDC BRFSS health indicators by demographic group, with confidence intervals and yearly trends."
-tech = ["Python", "Plotly Dash", "pandas"]
-repo = "https://github.com/SwapnanilBala/BRFSS_Dash_App"
 
 [[project]]
 slug = "cifar10-cnn"
