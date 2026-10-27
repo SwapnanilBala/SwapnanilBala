@@ -147,9 +147,12 @@ slug = "gridworld"
 prefix = "GW"
 kind = "academic"
 title = "GridWorld Search Visualizer"
-summary = "Watch BFS, DFS, DLS, UCS, A* and bidirectional search run on grid maps, with expanded-node and frontier metrics."
-tech = ["Python", "Pygame"]
+summary = "Race two of BFS, DFS, DLS, UCS, A* and bidirectional search side by side on the same map. On weighted terrain A* finds the optimal path with half the expansions of UCS."
+tech = ["Python", "Pygame", "matplotlib"]
 repo = "https://github.com/SwapnanilBala/Grid_Game_With_Multiple_SA"
+
+[project.captions]
+1 = "A* vs UCS on UCS_Weighted_01: the same 24-cost path, A* after 59 expansions, UCS after 119"
 
 [[project]]
 slug = "tiktok-claims-classifier"

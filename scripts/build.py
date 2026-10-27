@@ -34,6 +34,7 @@ RAW_NAME = re.compile(r"^([A-Za-z]+)[ _-]*(\d+)$")
 MAX_W, PHONE_MAX_W, QUALITY = 1600, 720, 84
 PHONE_RATIO, WIDE_RATIO = 0.7, 2.2
 GIF_WARN_MB = 5
+SECTION = {"product": "featured-work", "academic": "academic--portfolio-projects"}  # README heading anchors
 HERO_W, HERO_H = 1600, 900
 HERO_VERSION = 1  # bump when the hero drawing code changes, so cached heroes are rebuilt
 
@@ -189,6 +190,7 @@ SLOTS = {
     "cascade": [((90, 80, 1120, 640), "nw"), ((70, 520, 760, 850), "sw"), ((760, 300, 1530, 840), "se")],
     "device": [((70, 150, 1010, 760), "c"), ((930, 170, 1300, 860), "s"), ((1200, 60, 1560, 770), "n")],
     "phones": [((130, 130, 560, 800), "c"), ((580, 60, 1010, 780), "c"), ((1030, 140, 1470, 810), "c")],
+    "single": [((150, 90, 1450, 810), "c")],
 }
 
 
@@ -253,7 +255,9 @@ def make_hero(project, shots, dest):
     wanted = wanted[:3]
     phones = [s for s in wanted if s.ratio < PHONE_RATIO]
     desktops = [s for s in wanted if s.ratio >= PHONE_RATIO]
-    if phones and desktops:
+    if len(wanted) == 1:
+        layout, order = "single", wanted
+    elif phones and desktops:
         layout, order = "device", desktops[:1] + phones[:2]
     elif phones:
         layout, order = "phones", phones
@@ -358,8 +362,9 @@ def link_line(p):
 
 def page_markdown(p, shots, prev_p, next_p):
     slug = p["slug"]
-    out = [GENERATED, "", "[← Back to profile](../README.md#featured-work)", "", f"# {p['title']}", ""]
-    if (OUT / slug / "hero.webp").is_file():
+    home = f"../README.md#{SECTION[p['kind']]}"
+    out = [GENERATED, "", f"[← Back to profile]({home})", "", f"# {p['title']}", ""]
+    if len(shots) > 1 and (OUT / slug / "hero.webp").is_file():  # a lone shot is shown in full below
         out += [f'<p align="center"><img src="../assets/projects/{slug}/hero.webp" alt="{esc(p["title"])} screenshots" width="100%"></p>', ""]
     if p["tagline"]:
         out += [f"**{p['tagline']}**", ""]
@@ -374,7 +379,7 @@ def page_markdown(p, shots, prev_p, next_p):
     nav = []
     if prev_p:
         nav.append(f"[← {prev_p['title']}]({prev_p['slug']}.md)")
-    nav.append("[All projects](../README.md#featured-work)")
+    nav.append(f"[All projects]({home})")
     if next_p:
         nav.append(f"[{next_p['title']} →]({next_p['slug']}.md)")
     out += ["---", "", " · ".join(nav), ""]
