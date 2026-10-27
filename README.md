@@ -158,13 +158,9 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 
 ## Stack
 
-| Area | Tools |
-|---|---|
-| **Languages** | ![Python, TypeScript, JavaScript, C++, R, Julia](https://skillicons.dev/icons?i=py,ts,js,cpp,r,julia&perline=6) |
-| **Web** | ![Next.js, React, Tailwind CSS, FastAPI, Node.js](https://skillicons.dev/icons?i=nextjs,react,tailwind,fastapi,nodejs&perline=5) |
-| **Data & ML** | ![PyTorch, scikit-learn](https://skillicons.dev/icons?i=pytorch,sklearn&perline=2) |
-| **Databases** | ![Supabase, PostgreSQL, MySQL, SQLite, MongoDB](https://skillicons.dev/icons?i=supabase,postgres,mysql,sqlite,mongodb&perline=5) |
-| **Deploy & Tools** | ![Vercel, Git, GitHub, VS Code](https://skillicons.dev/icons?i=vercel,git,github,vscode&perline=4) |
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,ts,js,cpp,r,julia,nextjs,react,tailwind,fastapi,nodejs,pytorch,sklearn,supabase,postgres,mysql,sqlite,mongodb,vercel,git,github,vscode&perline=11" alt="Python, TypeScript, JavaScript, C++, R, Julia, Next.js, React, Tailwind CSS, FastAPI, Node.js, PyTorch, scikit-learn, Supabase, PostgreSQL, MySQL, SQLite, MongoDB, Vercel, Git, GitHub, VS Code">
+</p>
 
 <details>
 <summary><b>Full list</b></summary>
