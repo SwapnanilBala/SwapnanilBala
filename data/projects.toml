@@ -118,20 +118,30 @@ accent = "#e07a5f"
 4 = "Compare drafts: two versions of a resume scored against the same role"
 5 = "Job matches: rank one resume against up to ten roles"
 
+[[project]]
+slug = "brfss-dashboard"
+prefix = "BR"
+kind = "product"
+title = "BRFSS Health Dashboard"
+tagline = "Every CDC BRFSS survey question, broken down on one screen"
+summary = "Pick any CDC BRFSS survey question (2011–present) and see it by gender, age, race, education, income, year and state, with a 95% interval on every estimate."
+tech = ["Python", "Plotly Dash", "pandas", "Vercel"]
+live = "https://brfssdashanalysis.vercel.app/"
+repo = "https://github.com/SwapnanilBala/BRFSS_Dash_App"
+highlights = ["7 breakdowns per question", "1 GB survey pre-aggregated to 0.68 MB", "Serverless on Vercel"]
+hero = [1, 2, 3]
+bg = ["#08111f", "#123063"]
+accent = "#3b82f6"
+
+[project.captions]
+1 = "Question picker, overall estimate with its interval, and the 2011–present trend"
+2 = "Breakdowns by gender, age, race, education and income, each group sorted and labelled"
+3 = "State map: the estimate in each of the 30 reporting states"
+
 # ------------------------------------------------------------------ academic
 # No screenshots yet. Upload FN_1.png, GW_1.png, ... to assets/ and each project gets a
 # gallery page automatically. Add  repo = "https://github.com/..."  to link the code,
 # and  live = "https://..."  for a deployed app (it also counts toward the "live apps" line).
-
-[[project]]
-slug = "brfss-dashboard"
-prefix = "BR"
-kind = "academic"
-title = "BRFSS Health Dashboard"
-summary = "Any CDC BRFSS survey question (2011–present) broken down by gender, age, race, education, income, year and state, with 95% intervals. Pre-aggregated to 0.68 MB so it runs serverless."
-tech = ["Python", "Plotly Dash", "pandas", "Vercel"]
-live = "https://brfssdashanalysis.vercel.app/"
-repo = "https://github.com/SwapnanilBala/BRFSS_Dash_App"
 
 [[project]]
 slug = "fake-news-classifier"

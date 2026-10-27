@@ -90,6 +90,16 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
   <p><a href="https://resume-handler-kappa.vercel.app/"><b>Live app ↗</b></a> · <a href="projects/alignr.md">Gallery · 5 screens</a></p>
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+  <a href="projects/brfss-dashboard.md"><img src="assets/projects/brfss-dashboard/hero.webp" alt="BRFSS Health Dashboard screenshots" width="100%"></a>
+  <h3>BRFSS Health Dashboard</h3>
+  <p>Pick any CDC BRFSS survey question (2011–present) and see it by gender, age, race, education, income, year and state, with a 95% interval on every estimate.</p>
+  <p><sub>7 breakdowns per question · 1 GB survey pre-aggregated to 0.68 MB · Serverless on Vercel</sub></p>
+  <p><code>Python</code> <code>Plotly Dash</code> <code>pandas</code> <code>Vercel</code></p>
+  <p><a href="https://brfssdashanalysis.vercel.app/"><b>Live app ↗</b></a> · <a href="https://github.com/SwapnanilBala/BRFSS_Dash_App">Code</a> · <a href="projects/brfss-dashboard.md">Gallery · 3 screens</a></p>
+</td>
+</tr>
 </table>
 <!-- featured:end -->
 
@@ -100,7 +110,6 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 <!-- academic:start -->
 | Project | What it does | Stack | Links |
 |---|---|---|---|
-| **BRFSS Health Dashboard** | Any CDC BRFSS survey question (2011–present) broken down by gender, age, race, education, income, year and state, with 95% intervals. Pre-aggregated to 0.68 MB so it runs serverless. | `Python` `Plotly Dash` `pandas` `Vercel` | [**Live ↗**](https://brfssdashanalysis.vercel.app/) · [Code](https://github.com/SwapnanilBala/BRFSS_Dash_App) |
 | **Fake News Classifier** | DistilBERT and RoBERTa vs TF-IDF baselines on 12.8k LIAR political claims; best test macro-F1 0.686 (AUC 0.763), +0.034 over the best baseline. | `Python` `PyTorch` `Transformers` `scikit-learn` | [Code](https://github.com/SwapnanilBala/Fake-News-Classifier) |
 | **GridWorld Search Visualizer** | Race two of BFS, DFS, DLS, UCS, A* and bidirectional search side by side on the same map. On weighted terrain A* finds the optimal path with half the expansions of UCS. | `Python` `Pygame` `matplotlib` | [Gallery](projects/gridworld.md) · [Code](https://github.com/SwapnanilBala/Grid_Game_With_Multiple_SA) |
 | **TikTok Claims Classifier** | Classifies TikTok videos as claims or opinions at ~99.5% recall. Google Advanced Data Analytics capstone. | `Python` `scikit-learn` `XGBoost` | [Code](https://github.com/SwapnanilBala/Tik-Tok) |
