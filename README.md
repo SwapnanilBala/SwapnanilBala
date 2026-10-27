@@ -186,3 +186,21 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 
 Notes I've put together from actual usage — nothing theoretical:
 [Pandas Essentials & NumPy Basics](https://github.com/SwapnanilBala/Pandas_Essentials_and_Numpy_Basics)
+
+<br>
+
+<p align="center">
+  <a href="https://swapportfolio.vercel.app">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg">
+      <img src="assets/footer.svg" alt="Let's build something people actually use. Portfolio: swapportfolio.vercel.app" width="100%">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://swapportfolio.vercel.app">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/swapnanil-bala-854b722a7/">LinkedIn</a> ·
+  <a href="https://www.instagram.com/frost.plays.lifts/">Instagram</a>
+</p>
+
