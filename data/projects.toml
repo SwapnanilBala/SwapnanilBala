@@ -134,9 +134,9 @@ bg = ["#08111f", "#123063"]
 accent = "#3b82f6"
 
 [project.captions]
-1 = "Question picker, overall estimate with its interval, and the 2011–present trend"
-2 = "Breakdowns by gender, age, race, education and income, each group sorted and labelled"
-3 = "State map: the estimate in each of the 30 reporting states"
+1 = "Current smokers: 15.1% overall, with its interval, and the slide from 20% in 2011 to 11% in 2023"
+2 = "The same question by gender, age, race, education and income: 28.5% of adults without a high-school diploma smoke, 6.4% of college graduates"
+3 = "State map: the estimate in each of the 44 reporting states"
 
 # ------------------------------------------------------------------ academic
 # Shown as compact cards. A project with screenshots shows its first one in the card

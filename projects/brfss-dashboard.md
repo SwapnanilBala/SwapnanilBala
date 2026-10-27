@@ -20,14 +20,14 @@ Pick any CDC BRFSS survey question (2011–present) and see it by gender, age, r
 
 <table>
 <tr>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/brfss-dashboard/01.webp" width="100%" alt="Question picker, overall estimate with its interval, and the 2011–present trend"><br><sub>Question picker, overall estimate with its interval, and the 2011–present trend</sub></td>
-<td align="center" valign="top" width="50%"><img src="../assets/projects/brfss-dashboard/02.webp" width="100%" alt="Breakdowns by gender, age, race, education and income, each group sorted and labelled"><br><sub>Breakdowns by gender, age, race, education and income, each group sorted and labelled</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/brfss-dashboard/01.webp" width="100%" alt="Current smokers: 15.1% overall, with its interval, and the slide from 20% in 2011 to 11% in 2023"><br><sub>Current smokers: 15.1% overall, with its interval, and the slide from 20% in 2011 to 11% in 2023</sub></td>
+<td align="center" valign="top" width="50%"><img src="../assets/projects/brfss-dashboard/02.webp" width="100%" alt="The same question by gender, age, race, education and income: 28.5% of adults without a high-school diploma smoke, 6.4% of college graduates"><br><sub>The same question by gender, age, race, education and income: 28.5% of adults without a high-school diploma smoke, 6.4% of college graduates</sub></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td align="center" valign="top"><img src="../assets/projects/brfss-dashboard/03.webp" width="100%" alt="State map: the estimate in each of the 30 reporting states"><br><sub>State map: the estimate in each of the 30 reporting states</sub></td>
+<td align="center" valign="top"><img src="../assets/projects/brfss-dashboard/03.webp" width="100%" alt="State map: the estimate in each of the 44 reporting states"><br><sub>State map: the estimate in each of the 44 reporting states</sub></td>
 </tr>
 </table>
 
