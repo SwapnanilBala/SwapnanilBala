@@ -72,7 +72,7 @@
   <g text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
     <text x="600" y="132" font-size="62" font-weight="700" fill="#0f172a" letter-spacing="1">Swapnanil Bala</text>
     <text x="600" y="180" font-size="22" font-weight="600" fill="url(#accent)" letter-spacing="1">Applied ML  ·  Backend Systems  ·  Full-Stack</text>
-    <line x1="540" y1="208" x2="660" y2="208" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <rect x="540" y="206.5" width="120" height="3" rx="1.5" fill="url(#accent)"/>
     <text x="600" y="246" font-size="16" fill="#475569" letter-spacing="0.5">M.S. Data Science  ·  Northeastern University</text>
   </g>
 </svg>

@@ -39,4 +39,4 @@ Resume analyzer: scores a resume against a job description across eight weighted
 
 ---
 
-[← Appointment Booking Platform](appointment-booking.md) · [All projects](../README.md#featured-work)
+[← Appointment Booking Platform](appointment-booking.md) · [All projects](../README.md#featured-work) · [BRFSS Health Dashboard →](brfss-dashboard.md)

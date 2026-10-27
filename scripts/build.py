@@ -34,6 +34,7 @@ RAW_NAME = re.compile(r"^([A-Za-z]+)[ _-]*(\d+)$")
 MAX_W, PHONE_MAX_W, QUALITY = 1600, 720, 84
 PHONE_RATIO, WIDE_RATIO = 0.7, 2.2
 GIF_WARN_MB = 5
+SECTION = {"product": "featured-work", "academic": "academic--portfolio-projects"}  # README heading anchors
 HERO_W, HERO_H = 1600, 900
 HERO_VERSION = 1  # bump when the hero drawing code changes, so cached heroes are rebuilt
 
@@ -189,6 +190,7 @@ SLOTS = {
     "cascade": [((90, 80, 1120, 640), "nw"), ((70, 520, 760, 850), "sw"), ((760, 300, 1530, 840), "se")],
     "device": [((70, 150, 1010, 760), "c"), ((930, 170, 1300, 860), "s"), ((1200, 60, 1560, 770), "n")],
     "phones": [((130, 130, 560, 800), "c"), ((580, 60, 1010, 780), "c"), ((1030, 140, 1470, 810), "c")],
+    "single": [((150, 90, 1450, 810), "c")],
 }
 
 
@@ -253,7 +255,9 @@ def make_hero(project, shots, dest):
     wanted = wanted[:3]
     phones = [s for s in wanted if s.ratio < PHONE_RATIO]
     desktops = [s for s in wanted if s.ratio >= PHONE_RATIO]
-    if phones and desktops:
+    if len(wanted) == 1:
+        layout, order = "single", wanted
+    elif phones and desktops:
         layout, order = "device", desktops[:1] + phones[:2]
     elif phones:
         layout, order = "phones", phones
@@ -358,8 +362,9 @@ def link_line(p):
 
 def page_markdown(p, shots, prev_p, next_p):
     slug = p["slug"]
-    out = [GENERATED, "", "[← Back to profile](../README.md#featured-work)", "", f"# {p['title']}", ""]
-    if (OUT / slug / "hero.webp").is_file():
+    home = f"../README.md#{SECTION[p['kind']]}"
+    out = [GENERATED, "", f"[← Back to profile]({home})", "", f"# {p['title']}", ""]
+    if len(shots) > 1 and (OUT / slug / "hero.webp").is_file():  # a lone shot is shown in full below
         out += [f'<p align="center"><img src="../assets/projects/{slug}/hero.webp" alt="{esc(p["title"])} screenshots" width="100%"></p>', ""]
     if p["tagline"]:
         out += [f"**{p['tagline']}**", ""]
@@ -374,7 +379,7 @@ def page_markdown(p, shots, prev_p, next_p):
     nav = []
     if prev_p:
         nav.append(f"[← {prev_p['title']}]({prev_p['slug']}.md)")
-    nav.append("[All projects](../README.md#featured-work)")
+    nav.append(f"[All projects]({home})")
     if next_p:
         nav.append(f"[{next_p['title']} →]({next_p['slug']}.md)")
     out += ["---", "", " · ".join(nav), ""]
@@ -403,52 +408,45 @@ def write_pages(projects, shots_by_slug):
 
 # ---------------------------------------------------------------- README blocks
 
-def card(p, shots, has_page, colspan):
+def card(p, shots, has_page, colspan, compact=False):
+    """Featured cards lead with the hero collage; compact (academic) cards with the first shot itself."""
     slug = p["slug"]
     page = f"projects/{slug}.md"
+    src = None
+    if compact and shots:
+        src = shots[0].path.relative_to(ROOT).as_posix()
+    elif not compact and (OUT / slug / "hero.webp").is_file():
+        src = f"assets/projects/{slug}/hero.webp"
     img = ""
-    if (OUT / slug / "hero.webp").is_file():
-        pic = f'<img src="assets/projects/{slug}/hero.webp" alt="{esc(p["title"])} screenshots" width="100%">'
-        img = f'  <a href="{page}">{pic}</a>\n' if has_page else f"  {pic}\n"
+    if src:
+        width = "70%" if compact and colspan else "100%"  # a lone compact card shouldn't outweigh Featured Work
+        pic = f'<img src="{src}" alt="{esc(p["title"])} screenshots" width="{width}">'
+        pic = f'<a href="{page}">{pic}</a>' if has_page else pic
+        img = f'  <p align="center">{pic}</p>\n' if width != "100%" else f"  {pic}\n"
     links = []
     if p.get("live"):
         links.append(f'<a href="{esc(p["live"])}"><b>Live app ↗</b></a>')
     if p.get("repo"):
         links.append(f'<a href="{esc(p["repo"])}">Code</a>')
     if has_page:
-        links.append(f'<a href="{page}">Gallery · {len(shots)} screens</a>')
+        links.append(f'<a href="{page}">Gallery · {len(shots)} screen{"s" if len(shots) != 1 else ""}</a>')
     tech = " ".join(f"<code>{esc(t)}</code>" for t in p["tech"])
     span = ' colspan="2"' if colspan else ' width="50%"'
+    heading = "h4" if compact else "h3"
     highlights = ""
     if p.get("highlights"):
         highlights = f'  <p><sub>{" · ".join(esc(h) for h in p["highlights"])}</sub></p>\n'
-    return (f'<td{span} valign="top">\n{img}  <h3>{esc(p["title"])}</h3>\n  <p>{esc(p["summary"])}</p>\n'
+    return (f'<td{span} valign="top">\n{img}  <{heading}>{esc(p["title"])}</{heading}>\n  <p>{esc(p["summary"])}</p>\n'
             f'{highlights}  <p>{tech}</p>\n  <p>{" · ".join(links)}</p>\n</td>')
 
 
-def featured_block(products, shots_by_slug, pages):
+def card_grid(items, shots_by_slug, pages, compact=False):
     rows = []
-    for i in range(0, len(products), 2):
-        pair = products[i:i + 2]
-        cells = [card(p, shots_by_slug[p["slug"]], p["slug"] in pages, len(pair) == 1) for p in pair]
+    for i in range(0, len(items), 2):
+        pair = items[i:i + 2]
+        cells = [card(p, shots_by_slug[p["slug"]], p["slug"] in pages, len(pair) == 1, compact) for p in pair]
         rows.append("<tr>\n" + "\n".join(cells) + "\n</tr>")
     return "<table>\n" + "\n".join(rows) + "\n</table>"
-
-
-def academic_block(items, shots_by_slug, pages):
-    linked = any(p.get("repo") or p["slug"] in pages for p in items)
-    head = "| Project | What it does | Stack |" + (" Links |" if linked else "")
-    rule = "|---|---|---|" + ("---|" if linked else "")
-    lines = [head, rule]
-    for p in items:
-        links = []
-        if p["slug"] in pages:
-            links.append(f"[Gallery](projects/{p['slug']}.md)")
-        if p.get("repo"):
-            links.append(f"[Code]({p['repo']})")
-        row = f"| **{p['title']}** | {p['summary']} | {tech_line(p['tech'])} |"
-        lines.append(row + (f" {' · '.join(links)} |" if linked else ""))
-    return "\n".join(lines)
 
 
 def replace_block(text, name, body):
@@ -462,9 +460,9 @@ def update_readme(projects, shots_by_slug, pages):
     products = [p for p in projects if p["kind"] == "product"]
     academic = [p for p in projects if p["kind"] == "academic"]
     text = README.read_text("utf-8")
-    text = replace_block(text, "featured", featured_block(products, shots_by_slug, pages))
-    text = replace_block(text, "academic", academic_block(academic, shots_by_slug, pages))
-    live = sum(1 for p in products if p.get("live"))
+    text = replace_block(text, "featured", card_grid(products, shots_by_slug, pages))
+    text = replace_block(text, "academic", card_grid(academic, shots_by_slug, pages, compact=True))
+    live = sum(1 for p in projects if p.get("live"))
     text = re.sub(r"<!--live-->.*?<!--/live-->", f"<!--live-->{live}<!--/live-->", text)
     if text != README.read_text("utf-8"):
         README.write_text(text, "utf-8")

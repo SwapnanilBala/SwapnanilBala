@@ -7,7 +7,7 @@
 
 <p align="center">
   Data science grad student at Northeastern who loves building things people actually use.<br>
-  <!--live-->4<!--/live--> live apps so far, plus NLP, vision and search projects.
+  <!--live-->5<!--/live--> live apps so far, plus NLP, vision and search projects.
 </p>
 
 <p align="center">
@@ -90,6 +90,16 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
   <p><a href="https://resume-handler-kappa.vercel.app/"><b>Live app ↗</b></a> · <a href="projects/alignr.md">Gallery · 5 screens</a></p>
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+  <a href="projects/brfss-dashboard.md"><img src="assets/projects/brfss-dashboard/hero.webp" alt="BRFSS Health Dashboard screenshots" width="100%"></a>
+  <h3>BRFSS Health Dashboard</h3>
+  <p>Pick any CDC BRFSS survey question (2011–present) and see it by gender, age, race, education, income, year and state, with a 95% interval on every estimate.</p>
+  <p><sub>7 breakdowns per question · 1 GB survey pre-aggregated to 0.68 MB · Serverless on Vercel</sub></p>
+  <p><code>Python</code> <code>Plotly Dash</code> <code>pandas</code> <code>Vercel</code></p>
+  <p><a href="https://brfssdashanalysis.vercel.app/"><b>Live app ↗</b></a> · <a href="https://github.com/SwapnanilBala/BRFSS_Dash_App">Code</a> · <a href="projects/brfss-dashboard.md">Gallery · 3 screens</a></p>
+</td>
+</tr>
 </table>
 <!-- featured:end -->
 
@@ -98,27 +108,59 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 ## Academic & Portfolio Projects
 
 <!-- academic:start -->
-| Project | What it does | Stack | Links |
-|---|---|---|---|
-| **Fake News Classifier** | DistilBERT vs RoBERTa vs a TF-IDF baseline on LIAR political claims; best validation macro-F1 0.558, +0.033 over TF-IDF. | `Python` `PyTorch` `Transformers` | [Code](https://github.com/SwapnanilBala/Fake-News-Classifier) |
-| **GridWorld Search Visualizer** | Watch BFS, DFS, DLS, UCS, A* and bidirectional search run on grid maps, with expanded-node and frontier metrics. | `Python` `Pygame` | [Code](https://github.com/SwapnanilBala/Grid_Game_With_Multiple_SA) |
-| **TikTok Claims Classifier** | Classifies TikTok videos as claims or opinions at ~99.5% recall. Google Advanced Data Analytics capstone. | `Python` `scikit-learn` `XGBoost` | [Code](https://github.com/SwapnanilBala/Tik-Tok) |
-| **BRFSS Health Dashboard** | Interactive dashboard of CDC BRFSS health indicators by demographic group, with confidence intervals and yearly trends. | `Python` `Plotly Dash` `pandas` | [Code](https://github.com/SwapnanilBala/BRFSS_Dash_App) |
-| **CIFAR-10 Image Classifier** | Small convolutional network trained from scratch on CIFAR-10: 72.3% test accuracy after 5 epochs, about 4 minutes on a CPU. | `Python` `PyTorch` | [Code](https://github.com/SwapnanilBala/Pytorch_Beginner_Image_Classification) |
-| **Little Lemon Database System** | Meta Database Engineer capstone: a normalized MySQL schema with stored procedures and complex queries. | `SQL` `MySQL` | [Code](https://github.com/SwapnanilBala/Little_Lemon_Data_base_Plus_Auto_Prescription_App) |
+<table>
+<tr>
+<td width="50%" valign="top">
+  <h4>Fake News Classifier</h4>
+  <p>DistilBERT and RoBERTa fine-tuned against TF-IDF baselines on 12.8k LIAR political claims, then scored once on a held-out test split.</p>
+  <p><sub>Test macro-F1 0.686 · AUC 0.763 · +0.034 over TF-IDF</sub></p>
+  <p><code>Python</code> <code>PyTorch</code> <code>Transformers</code> <code>scikit-learn</code></p>
+  <p><a href="https://github.com/SwapnanilBala/Fake-News-Classifier">Code</a></p>
+</td>
+<td width="50%" valign="top">
+  <h4>TikTok Claims Classifier</h4>
+  <p>Classifies TikTok videos as claims or opinions. Google Advanced Data Analytics capstone.</p>
+  <p><sub>~99.5% recall</sub></p>
+  <p><code>Python</code> <code>scikit-learn</code> <code>XGBoost</code></p>
+  <p><a href="https://github.com/SwapnanilBala/Tik-Tok">Code</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <h4>CIFAR-10 Image Classifier</h4>
+  <p>Small convolutional network trained from scratch on CIFAR-10.</p>
+  <p><sub>72.3% test accuracy · 5 epochs · ~4 min on a CPU</sub></p>
+  <p><code>Python</code> <code>PyTorch</code></p>
+  <p><a href="https://github.com/SwapnanilBala/Pytorch_Beginner_Image_Classification">Code</a></p>
+</td>
+<td width="50%" valign="top">
+  <h4>Little Lemon Database System</h4>
+  <p>A normalized MySQL schema for a restaurant, with stored procedures and complex queries.</p>
+  <p><sub>Meta Database Engineer capstone</sub></p>
+  <p><code>SQL</code> <code>MySQL</code></p>
+  <p><a href="https://github.com/SwapnanilBala/Little_Lemon_Data_base_Plus_Auto_Prescription_App">Code</a></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+  <p align="center"><a href="projects/gridworld.md"><img src="assets/projects/gridworld/01.gif" alt="GridWorld Search Visualizer screenshots" width="70%"></a></p>
+  <h4>GridWorld Search Visualizer</h4>
+  <p>Race two of BFS, DFS, DLS, UCS, A* and bidirectional search side by side on the same map, and watch every node expansion replay live.</p>
+  <p><sub>6 algorithms · 10 maps · A* finds the optimal path with half the expansions of UCS</sub></p>
+  <p><code>Python</code> <code>Pygame</code> <code>matplotlib</code></p>
+  <p><a href="https://github.com/SwapnanilBala/Grid_Game_With_Multiple_SA">Code</a> · <a href="projects/gridworld.md">Gallery · 1 screen</a></p>
+</td>
+</tr>
+</table>
 <!-- academic:end -->
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## Stack
 
-| Area | Tools |
-|---|---|
-| **Languages** | ![Python, TypeScript, JavaScript, C++, R, Julia](https://skillicons.dev/icons?i=py,ts,js,cpp,r,julia&perline=6) |
-| **Web** | ![Next.js, React, Tailwind CSS, FastAPI, Node.js](https://skillicons.dev/icons?i=nextjs,react,tailwind,fastapi,nodejs&perline=5) |
-| **Data & ML** | ![PyTorch, scikit-learn](https://skillicons.dev/icons?i=pytorch,sklearn&perline=2) |
-| **Databases** | ![Supabase, PostgreSQL, MySQL, SQLite, MongoDB](https://skillicons.dev/icons?i=supabase,postgres,mysql,sqlite,mongodb&perline=5) |
-| **Deploy & Tools** | ![Vercel, Git, GitHub, VS Code](https://skillicons.dev/icons?i=vercel,git,github,vscode&perline=4) |
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,ts,js,cpp,r,julia,nextjs,react,tailwind,fastapi,nodejs,pytorch,sklearn,supabase,postgres,mysql,sqlite,mongodb,vercel,git,github,vscode&perline=11" alt="Python, TypeScript, JavaScript, C++, R, Julia, Next.js, React, Tailwind CSS, FastAPI, Node.js, PyTorch, scikit-learn, Supabase, PostgreSQL, MySQL, SQLite, MongoDB, Vercel, Git, GitHub, VS Code">
+</p>
 
 <details>
 <summary><b>Full list</b></summary>
@@ -144,3 +186,21 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 
 Notes I've put together from actual usage — nothing theoretical:
 [Pandas Essentials & NumPy Basics](https://github.com/SwapnanilBala/Pandas_Essentials_and_Numpy_Basics)
+
+<br>
+
+<p align="center">
+  <a href="https://swapportfolio.vercel.app">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg">
+      <img src="assets/footer.svg" alt="Let's build something people actually use. Portfolio: swapportfolio.vercel.app" width="100%">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://swapportfolio.vercel.app">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/swapnanil-bala-854b722a7/">LinkedIn</a> ·
+  <a href="https://www.instagram.com/frost.plays.lifts/">Instagram</a>
+</p>
+
