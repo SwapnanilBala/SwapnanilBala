@@ -108,13 +108,50 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 ## Academic & Portfolio Projects
 
 <!-- academic:start -->
-| Project | What it does | Stack | Links |
-|---|---|---|---|
-| **Fake News Classifier** | DistilBERT and RoBERTa vs TF-IDF baselines on 12.8k LIAR political claims; best test macro-F1 0.686 (AUC 0.763), +0.034 over the best baseline. | `Python` `PyTorch` `Transformers` `scikit-learn` | [Code](https://github.com/SwapnanilBala/Fake-News-Classifier) |
-| **GridWorld Search Visualizer** | Race two of BFS, DFS, DLS, UCS, A* and bidirectional search side by side on the same map. On weighted terrain A* finds the optimal path with half the expansions of UCS. | `Python` `Pygame` `matplotlib` | [Gallery](projects/gridworld.md) · [Code](https://github.com/SwapnanilBala/Grid_Game_With_Multiple_SA) |
-| **TikTok Claims Classifier** | Classifies TikTok videos as claims or opinions at ~99.5% recall. Google Advanced Data Analytics capstone. | `Python` `scikit-learn` `XGBoost` | [Code](https://github.com/SwapnanilBala/Tik-Tok) |
-| **CIFAR-10 Image Classifier** | Small convolutional network trained from scratch on CIFAR-10: 72.3% test accuracy after 5 epochs, about 4 minutes on a CPU. | `Python` `PyTorch` | [Code](https://github.com/SwapnanilBala/Pytorch_Beginner_Image_Classification) |
-| **Little Lemon Database System** | Meta Database Engineer capstone: a normalized MySQL schema with stored procedures and complex queries. | `SQL` `MySQL` | [Code](https://github.com/SwapnanilBala/Little_Lemon_Data_base_Plus_Auto_Prescription_App) |
+<table>
+<tr>
+<td width="50%" valign="top">
+  <h4>Fake News Classifier</h4>
+  <p>DistilBERT and RoBERTa fine-tuned against TF-IDF baselines on 12.8k LIAR political claims, then scored once on a held-out test split.</p>
+  <p><sub>Test macro-F1 0.686 · AUC 0.763 · +0.034 over TF-IDF</sub></p>
+  <p><code>Python</code> <code>PyTorch</code> <code>Transformers</code> <code>scikit-learn</code></p>
+  <p><a href="https://github.com/SwapnanilBala/Fake-News-Classifier">Code</a></p>
+</td>
+<td width="50%" valign="top">
+  <h4>TikTok Claims Classifier</h4>
+  <p>Classifies TikTok videos as claims or opinions. Google Advanced Data Analytics capstone.</p>
+  <p><sub>~99.5% recall</sub></p>
+  <p><code>Python</code> <code>scikit-learn</code> <code>XGBoost</code></p>
+  <p><a href="https://github.com/SwapnanilBala/Tik-Tok">Code</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <h4>CIFAR-10 Image Classifier</h4>
+  <p>Small convolutional network trained from scratch on CIFAR-10.</p>
+  <p><sub>72.3% test accuracy · 5 epochs · ~4 min on a CPU</sub></p>
+  <p><code>Python</code> <code>PyTorch</code></p>
+  <p><a href="https://github.com/SwapnanilBala/Pytorch_Beginner_Image_Classification">Code</a></p>
+</td>
+<td width="50%" valign="top">
+  <h4>Little Lemon Database System</h4>
+  <p>A normalized MySQL schema for a restaurant, with stored procedures and complex queries.</p>
+  <p><sub>Meta Database Engineer capstone</sub></p>
+  <p><code>SQL</code> <code>MySQL</code></p>
+  <p><a href="https://github.com/SwapnanilBala/Little_Lemon_Data_base_Plus_Auto_Prescription_App">Code</a></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+  <a href="projects/gridworld.md"><img src="assets/projects/gridworld/01.gif" alt="GridWorld Search Visualizer screenshots" width="100%"></a>
+  <h4>GridWorld Search Visualizer</h4>
+  <p>Race two of BFS, DFS, DLS, UCS, A* and bidirectional search side by side on the same map, and watch every node expansion replay live.</p>
+  <p><sub>6 algorithms · 10 maps · A* finds the optimal path with half the expansions of UCS</sub></p>
+  <p><code>Python</code> <code>Pygame</code> <code>matplotlib</code></p>
+  <p><a href="https://github.com/SwapnanilBala/Grid_Game_With_Multiple_SA">Code</a> · <a href="projects/gridworld.md">Gallery · 1 screen</a></p>
+</td>
+</tr>
+</table>
 <!-- academic:end -->
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>

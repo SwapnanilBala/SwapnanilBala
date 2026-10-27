@@ -1,6 +1,6 @@
 # Showcase pipeline
 
-Everything on the profile page is generated from one file, [`data/projects.toml`](../data/projects.toml), plus the screenshots you upload. You never edit the project cards, the academic table or the gallery pages by hand.
+Everything on the profile page is generated from one file, [`data/projects.toml`](../data/projects.toml), plus the screenshots you upload. You never edit the project cards or the gallery pages by hand.
 
 ```
 data/projects.toml            the source of truth: names, summaries, captions, per-image fixes
@@ -32,7 +32,7 @@ Raw uploads still live in git history, since you committed them. The build only 
 Copy a `[[project]]` block in `data/projects.toml`, give it a unique `slug` and `prefix`, and set `kind`:
 
 - `product` gets a card with a hero collage in **Featured Work**
-- `academic` gets a row in the compact table (and a gallery page as soon as it has screenshots)
+- `academic` gets a compact card in **Academic & Portfolio Projects**, without a collage. Once it has screenshots, the card shows the first one (a GIF plays right on the profile) and links a gallery page
 
 Then upload screenshots with its prefix. The comments at the top of the manifest list every key, including `highlights`: a few short facts (`["561 tests", "23 divisional charts"]`) shown as one line under a card's summary and on its gallery page.
 

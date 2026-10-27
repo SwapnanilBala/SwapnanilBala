@@ -12,7 +12,7 @@
 #   slug      folder + page name (assets/projects/<slug>/, projects/<slug>.md)
 #   prefix    letters in the screenshot filenames (case-insensitive: LA_1, La_1, la-1 all work)
 #   kind      "product"  -> featured card with a hero image   (live apps)
-#             "academic" -> row in the compact table            (coursework, research)
+#             "academic" -> compact card, first screenshot if any   (coursework, research)
 #   title, tagline, summary, tech = [..], live = "url", repo = "url"   (live/repo optional)
 #   highlights  short facts shown as one line under the summary, e.g. ["561 tests", "23 charts"]
 #   hero      screenshot numbers used for the hero collage (default: the first three)
@@ -139,54 +139,59 @@ accent = "#3b82f6"
 3 = "State map: the estimate in each of the 30 reporting states"
 
 # ------------------------------------------------------------------ academic
-# No screenshots yet. Upload FN_1.png, GW_1.png, ... to assets/ and each project gets a
-# gallery page automatically. Add  repo = "https://github.com/..."  to link the code,
-# and  live = "https://..."  for a deployed app (it also counts toward the "live apps" line).
+# Shown as compact cards. A project with screenshots shows its first one in the card
+# (GW_1.gif, ...) and gets a gallery page. Add  repo = "https://github.com/..."  to link the
+# code, and  live = "https://..."  for a deployed app (it also counts toward the "live apps" line).
 
 [[project]]
 slug = "fake-news-classifier"
 prefix = "FN"
 kind = "academic"
 title = "Fake News Classifier"
-summary = "DistilBERT and RoBERTa vs TF-IDF baselines on 12.8k LIAR political claims; best test macro-F1 0.686 (AUC 0.763), +0.034 over the best baseline."
+summary = "DistilBERT and RoBERTa fine-tuned against TF-IDF baselines on 12.8k LIAR political claims, then scored once on a held-out test split."
 tech = ["Python", "PyTorch", "Transformers", "scikit-learn"]
 repo = "https://github.com/SwapnanilBala/Fake-News-Classifier"
-
-[[project]]
-slug = "gridworld"
-prefix = "GW"
-kind = "academic"
-title = "GridWorld Search Visualizer"
-summary = "Race two of BFS, DFS, DLS, UCS, A* and bidirectional search side by side on the same map. On weighted terrain A* finds the optimal path with half the expansions of UCS."
-tech = ["Python", "Pygame", "matplotlib"]
-repo = "https://github.com/SwapnanilBala/Grid_Game_With_Multiple_SA"
-
-[project.captions]
-1 = "A* vs UCS on UCS_Weighted_01: the same 24-cost path, A* after 59 expansions, UCS after 119"
+highlights = ["Test macro-F1 0.686", "AUC 0.763", "+0.034 over TF-IDF"]
 
 [[project]]
 slug = "tiktok-claims-classifier"
 prefix = "TK"
 kind = "academic"
 title = "TikTok Claims Classifier"
-summary = "Classifies TikTok videos as claims or opinions at ~99.5% recall. Google Advanced Data Analytics capstone."
+summary = "Classifies TikTok videos as claims or opinions. Google Advanced Data Analytics capstone."
 tech = ["Python", "scikit-learn", "XGBoost"]
 repo = "https://github.com/SwapnanilBala/Tik-Tok"
+highlights = ["~99.5% recall"]
 
 [[project]]
 slug = "cifar10-cnn"
 prefix = "CF"
 kind = "academic"
 title = "CIFAR-10 Image Classifier"
-summary = "Small convolutional network trained from scratch on CIFAR-10: 72.3% test accuracy after 5 epochs, about 4 minutes on a CPU."
+summary = "Small convolutional network trained from scratch on CIFAR-10."
 tech = ["Python", "PyTorch"]
 repo = "https://github.com/SwapnanilBala/Pytorch_Beginner_Image_Classification"
+highlights = ["72.3% test accuracy", "5 epochs", "~4 min on a CPU"]
 
 [[project]]
 slug = "little-lemon-database"
 prefix = "LL"
 kind = "academic"
 title = "Little Lemon Database System"
-summary = "Meta Database Engineer capstone: a normalized MySQL schema with stored procedures and complex queries."
+summary = "A normalized MySQL schema for a restaurant, with stored procedures and complex queries."
 tech = ["SQL", "MySQL"]
 repo = "https://github.com/SwapnanilBala/Little_Lemon_Data_base_Plus_Auto_Prescription_App"
+highlights = ["Meta Database Engineer capstone"]
+
+[[project]]
+slug = "gridworld"
+prefix = "GW"
+kind = "academic"
+title = "GridWorld Search Visualizer"
+summary = "Race two of BFS, DFS, DLS, UCS, A* and bidirectional search side by side on the same map, and watch every node expansion replay live."
+tech = ["Python", "Pygame", "matplotlib"]
+repo = "https://github.com/SwapnanilBala/Grid_Game_With_Multiple_SA"
+highlights = ["6 algorithms", "10 maps", "A* finds the optimal path with half the expansions of UCS"]
+
+[project.captions]
+1 = "A* vs UCS on UCS_Weighted_01: the same 24-cost path, A* after 59 expansions, UCS after 119"

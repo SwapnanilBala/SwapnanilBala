@@ -4,7 +4,9 @@
 
 # GridWorld Search Visualizer
 
-Race two of BFS, DFS, DLS, UCS, A* and bidirectional search side by side on the same map. On weighted terrain A* finds the optimal path with half the expansions of UCS.
+Race two of BFS, DFS, DLS, UCS, A* and bidirectional search side by side on the same map, and watch every node expansion replay live.
+
+**6 algorithms** · **10 maps** · **A* finds the optimal path with half the expansions of UCS**
 
 **Stack:** `Python` `Pygame` `matplotlib`  
 **Code:** [github.com/SwapnanilBala/Grid_Game_With_Multiple_SA](https://github.com/SwapnanilBala/Grid_Game_With_Multiple_SA)
