@@ -8,7 +8,7 @@
 
 **Booking, scheduling and prescriptions for a live orthopedic clinic**
 
-Booking system for a live orthopedic clinic: patient booking, the doctor's daily schedule, an admin panel and WhatsApp notifications.
+Booking system for a live orthopedic clinic: patient booking, the doctor's daily schedule, an admin panel and WhatsApp notifications, in English, Bengali and Hindi.
 
 **3 portals: patient, doctor, admin** · **7-day availability view**
 

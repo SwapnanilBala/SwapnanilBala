@@ -8,11 +8,11 @@
 
 **Vedic birth charts with AI-written interpretations**
 
-Vedic astrology engine: birth charts across six ayanamshas and six house systems, dasha timelines, yoga detection and AI palm reading.
+Vedic astrology engine: birth charts across six ayanamshas and six house systems, dasha timelines, yoga detection, AI palm reading and answers drawn from three classical texts, in seven languages.
 
-**1,863 tests** · **20 divisional charts** · **51 yogas detected**
+**2,066 tests** · **20 divisional charts** · **51 yogas detected**
 
-**Stack:** `Next.js` `TypeScript` `astronomy-engine` `Neon + Drizzle` `Claude vision`  
+**Stack:** `Next.js` `TypeScript` `astronomy-engine` `Neon + Drizzle + pgvector` `Claude`  
 **Live:** [lagnaatelier.site](https://lagnaatelier.site/)  
 **Code:** [github.com/SwapnanilBala/Large_Astro_Web_App](https://github.com/SwapnanilBala/Large_Astro_Web_App)
 
