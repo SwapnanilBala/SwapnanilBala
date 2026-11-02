@@ -58,17 +58,17 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 <td width="50%" valign="top">
   <a href="projects/lagna-atelier.md"><img src="assets/projects/lagna-atelier/hero.webp" alt="Lagna Atelier screenshots" width="100%"></a>
   <h3>Lagna Atelier</h3>
-  <p>Vedic astrology engine: birth charts across six ayanamshas and six house systems, dasha timelines, yoga detection and AI palm reading.</p>
-  <p><sub>1,863 tests · 20 divisional charts · 51 yogas detected</sub></p>
-  <p><code>Next.js</code> <code>TypeScript</code> <code>astronomy-engine</code> <code>Neon + Drizzle</code> <code>Claude vision</code></p>
+  <p>Vedic astrology engine: birth charts across six ayanamshas and six house systems, dasha timelines, yoga detection, AI palm reading and answers drawn from three classical texts, in seven languages.</p>
+  <p><sub>2,066 tests · 20 divisional charts · 51 yogas detected</sub></p>
+  <p><code>Next.js</code> <code>TypeScript</code> <code>astronomy-engine</code> <code>Neon + Drizzle + pgvector</code> <code>Claude</code></p>
   <p><a href="https://lagnaatelier.site/"><b>Live app ↗</b></a> · <a href="https://github.com/SwapnanilBala/Large_Astro_Web_App">Code</a> · <a href="projects/lagna-atelier.md">Gallery · 8 screens</a></p>
 </td>
 <td width="50%" valign="top">
   <a href="projects/robust-health.md"><img src="assets/projects/robust-health/hero.webp" alt="Robust Health screenshots" width="100%"></a>
   <h3>Robust Health</h3>
-  <p>Fitness PWA that turns a member&#x27;s profile into weekly training, nutrition and sleep plans, with separate member and trainer portals.</p>
+  <p>Fitness PWA that turns a member&#x27;s profile into weekly training, nutrition and sleep plans grounded in a USDA, NIH and Dietary Guidelines knowledge base, with member, coach and admin portals in English and Spanish.</p>
   <p><sub>23 training programmes · 900+ exercises · −50% web load time</sub></p>
-  <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Claude API</code> <code>Vercel</code></p>
+  <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Claude API</code> <code>Pinecone</code> <code>Vercel</code></p>
   <p><a href="https://app.robusthealth.in/"><b>Live app ↗</b></a> · <a href="projects/robust-health.md">Gallery · 10 screens</a></p>
 </td>
 </tr>
@@ -76,7 +76,7 @@ When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://
 <td width="50%" valign="top">
   <a href="projects/appointment-booking.md"><img src="assets/projects/appointment-booking/hero.webp" alt="Appointment Booking Platform screenshots" width="100%"></a>
   <h3>Appointment Booking Platform</h3>
-  <p>Booking system for a live orthopedic clinic: patient booking, the doctor&#x27;s daily schedule, an admin panel and WhatsApp notifications.</p>
+  <p>Booking system for a live orthopedic clinic: patient booking, the doctor&#x27;s daily schedule, an admin panel and WhatsApp notifications, in English, Bengali and Hindi.</p>
   <p><sub>3 portals: patient, doctor, admin · 7-day availability view</sub></p>
   <p><code>Node.js</code> <code>Express</code> <code>PostgreSQL</code> <code>Twilio</code></p>
   <p><a href="https://drbalaortho.com/"><b>Live app ↗</b></a> · <a href="projects/appointment-booking.md">Gallery · 7 screens</a></p>

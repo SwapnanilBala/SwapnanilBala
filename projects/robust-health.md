@@ -8,11 +8,11 @@
 
 **Programming, tracking and nutrition in one app**
 
-Fitness PWA that turns a member's profile into weekly training, nutrition and sleep plans, with separate member and trainer portals.
+Fitness PWA that turns a member's profile into weekly training, nutrition and sleep plans grounded in a USDA, NIH and Dietary Guidelines knowledge base, with member, coach and admin portals in English and Spanish.
 
 **23 training programmes** · **900+ exercises** · **−50% web load time**
 
-**Stack:** `Next.js` `TypeScript` `Supabase` `Claude API` `Vercel`  
+**Stack:** `Next.js` `TypeScript` `Supabase` `Claude API` `Pinecone` `Vercel`  
 **Live:** [app.robusthealth.in](https://app.robusthealth.in/)
 
 ## Screenshots (10)
