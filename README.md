@@ -44,7 +44,7 @@ My work tends to sit somewhere across:
 
 I care more about whether something actually works than whether it looks impressive on paper.
 
-When I'm not at a screen: motorcycles and the gym ([@frost.plays.lifts](https://www.instagram.com/frost.plays.lifts/)).
+When I'm not at a screen: motorcycles and the gym ([@tales_of_swap](https://www.instagram.com/tales_of_swap/)).
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
